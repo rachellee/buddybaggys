@@ -9,7 +9,7 @@ include('inc/header.php'); ?>
 			Wesley
 		</div>
 		<div id="wesley-pic">
-			<img src="images/wesley.png" class="Wesley-img" alt="Wesley Profile Pic">
+			<img src="images/Wesley.png" class="Wesley-img" alt="Wesley Profile Pic">
 		</div>
 		<div class="about-title">
 			Designer & Seamstress
@@ -31,7 +31,7 @@ include('inc/header.php'); ?>
 			Buddy
 		</div>
 		<div id="buddy-pic">
-			<img src="images/buddy.png" class="Buddy-img" alt="Buddy Profile Pic">
+			<img src="images/Buddy.png" class="Buddy-img" alt="Buddy Profile Pic">
 		</div>
 		<div class="about-title">
 			Parter in Crime & Muse
