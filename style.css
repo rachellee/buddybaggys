@@ -1,0 +1,1552 @@
+/*
+Theme Name: Buddy Baggies
+Theme URI: http://wordpress.org/themes/buddybaggies
+Author: Rachel Lee
+Author URI: http://www.rachellee.io
+Description: 2014 custom theme for Buddy Baggies
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue, white, responsive-layout, fluid-layout, light, one-column, two-columns, right-sidebar, custom-header, featured-images
+Text Domain: Buddy Baggies
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/** 
+	* #.# General stylesheet comment
+	*
+	* CSS is organized in order of appearance:
+			1) Home page (header, body) - line 19
+			2) Shop page - line 223
+			3) About page - line 306
+			4) Contact page - line 363
+			5) Footer - line 481
+			6) WP css classes
+			7) Media Queries - line 506
+					iPhone 4 (320x480) - line 509
+					(min-width: 300px) and (max-width: 509px) - line 677
+					(min-width: 509px) and (max-width: 600px) - line 841
+					(min-width: 600px) and (max-width: 660px) - line 977
+					(min-width: 660px) and (max-width: 740px) - line 1061
+					(min-width: 740px) and (max-width: 809px) - line 1147
+					(min-width: 809px) and (max-width: 886px) - line 1219
+					(min-width: 886px) and (max-width: 948px) - line 1296
+					(min-width: 948px) and (max-width: 1023px) - line 1368
+					min-width: 1024px - line 1399
+					min-width: 1181px - line 1430
+	* Media Queries are located on the bottom of the stylesheet.
+*
+*
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900);
+
+/* ===========================================================================================
+	Header
+   =========================================================================================== */
+
+#main-header {
+	background-color: #a4c8ff;
+	height: 10rem;
+	width: 100%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	font-family: "Hobo Std", "Avenir", "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	color: #fff;
+	font-size: 3rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#main-header-text {
+	padding-top: 1.5rem;
+	text-align: center;
+}
+
+.pawprint {
+	height: 2.813rem;
+}
+
+.nav {
+	width: 100%; 
+	padding-top: 1.5rem;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	text-transform: none;
+	font-size: 1.15rem;
+	font-weight: 100;
+}
+
+#main-header .nav #nav-link.on a {text-decoration: underline;color: #3c3c3c;}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: #3c3c3c;
+}
+
+a:active {
+	color: #3c3c3c;
+}
+
+#nav-link {
+	margin: 0 1.1rem;
+}
+
+/* ===========================================================================================
+	Home Page
+   =========================================================================================== */
+
+body {
+	width: 100%;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#teaser-container {
+	width: 100%;
+	padding-top: 5rem;
+	padding-bottom: 4rem;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1.25rem;
+	font-weight: 300;
+	line-height: 2;
+	text-align: center;
+}
+
+#circles-container {
+	height: 20rem;
+	width: 70%;
+	margin: 0 auto;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	text-align: justify;
+	-ms-text-justify: distribute-all-lines;
+	text-justify: distribute-all-lines;
+}
+
+#fabric-container,
+#sustainable-container,
+#reload-container,
+#wash-container {
+	width: 12rem;
+	vertical-align: top;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	padding-bottom: 3rem;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.stretch { /* has it so that the circles have equal spacing between them */
+	width: 100%;
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+}
+
+.fabric-img,
+.bamboo-img,
+.bags-img,
+.machine-img {
+	height: 10.75rem;
+	padding-bottom: 0.5rem;
+}
+
+#quiet {
+	width: 100%;
+	padding-bottom: 5rem;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+#available-now-text {
+	width: 100%;
+	padding-bottom: 2rem;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #0dcd43;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#bags-container {
+	width: 1010px;
+	height: 12.5rem;
+	margin: 0 auto 5rem auto;
+	padding-bottom: 1rem;
+	-ms-text-justify: distribute-all-lines;
+	text-justify:distribute-all-lines;
+	text-align: center;
+}
+
+#bag1,
+#bag2,
+#bag3,
+#bag4 {
+	width: 15rem;
+	height: 13rem;
+	padding-top: 10px;
+	vertical-align: top;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	font-weight: 300;
+	text-align: center;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+}
+
+.buddybaggy {
+	height: 11rem;
+}
+
+#bag1 a {
+	color: #3c3c3c;
+}
+
+#bag2 a {
+	color: #3c3c3c;
+}
+
+#bag3 a{
+	color: #3c3c3c;
+}
+
+#bag4 a{
+	color: #3c3c3c;
+}
+
+
+.border-fade {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+.border-fade:hover, .border-fade:focus, .border-fade:active {
+  box-shadow: inset 0 0 0 4px #666666, 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+
+
+
+/* ===========================================================================================
+	Shop
+   =========================================================================================== */
+#shop-text {
+	width: 100%;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #0dcd43;
+	text-align: center;
+}
+
+#bags-container {
+	width: 1010px;
+	height: 12.5rem;
+	margin: 0 auto 5rem auto;
+	padding-bottom: 1rem;
+	-ms-text-justify: distribute-all-lines;
+	text-justify: distribute-all-lines;
+	text-align: center;
+}
+
+#bag1,
+#bag2,
+#bag3,
+#bag4 {
+	width: 15rem;
+	height: 13rem;
+	padding-top: 10px;
+	vertical-align: top;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	font-weight: 300;
+	text-align: center;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+}
+
+.buddybaggy {
+	height: 11rem;
+}
+
+#bag1 a {
+	color: #3c3c3c;
+}
+
+#bag2 a {
+	color: #3c3c3c;
+}
+
+#bag3 a{
+	color: #3c3c3c;
+}
+
+#bag4 a{
+	color: #3c3c3c;
+}
+
+
+.border-fade {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+.border-fade:hover,
+.border-fade:focus,
+.border-fade:active {
+  box-shadow: inset 0 0 0 4px #666666, 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+
+
+
+
+/* ===========================================================================================
+	About
+   =========================================================================================== */
+
+#about-container {
+	width: 100%;
+	max-width: 700px;
+	height: 100%;
+	margin: 0px auto 80px auto;
+	padding-top: 5rem;
+	color: #3c3c3c;
+}
+
+#wesley-container {
+	width: 36%;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+}
+
+.wesley-img {
+	width: 246px;
+}
+
+.about-name {
+	padding-bottom: 2rem;
+	font-family: "intro";
+	font-size: 55px;
+	text-align: center;
+}
+
+.about-title {
+	padding-top: 2rem;
+	color: #0dcd43;
+}
+
+#ampersand {
+	width: 53px;
+	padding-top: 9rem;
+	padding-left: 4.5rem;
+	font-size: 75px;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+}
+
+#buddy-container {
+	width: 36%;
+	margin: 0 auto;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+}
+
+.about-title {
+	padding-left: 1rem;
+}
+
+.about-descrip {
+	padding-left: 1rem;
+}	
+
+
+/* ===========================================================================================
+	Contact
+   =========================================================================================== */
+#contact {
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 4rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1.25rem;
+	line-height: 2;
+	text-align: center;
+	-ms-text-justify: distribute-all-lines;
+	text-justify: distribute-all-lines;
+}
+
+form {
+	margin: 0 auto 3rem auto;
+	padding: 0;
+	width: 400px;
+}
+
+h1 {
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 2rem;
+	font-weight: 300;
+	text-decoration: none;
+	line-height: 2;
+	text-align: center;
+}
+
+p {
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1.2rem;
+	font-weight: 300;
+	line-height: 2;
+	text-align: center;
+}
+
+table {
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	text-align: right;
+	font-size: 1.1rem;
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+label {
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	text-align: right;
+	font-size: 1.1rem;
+	font-weight: 400;	
+}
+
+input, textarea {
+	padding: 8px;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	box-shadow: none;
+	border: 1px solid black;
+}
+
+textarea {
+	margin-top: 0.6rem;
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+th {
+	padding: 10px;
+	padding-left: 10px;
+}
+
+#name {
+	height: 35px;
+	width: 300px;
+	border-radius: 5px;
+}
+
+#email {
+	height: 35px;
+	width: 300px;
+	border-radius: 5px;
+}
+
+#subject {
+	height: 35px;
+	width: 300px;
+	border-radius: 5px;
+}
+
+#message {
+	height: 100px;
+	width: 300px;
+	border-radius: 5px;
+}
+
+input[type="submit"] {
+	width: 300px;
+  margin-left:6rem; 
+  margin-right:auto;
+  margin-top: 1rem;
+	border: 1px solid #00FA9A;
+  color: #fff;
+  background: #4DFCB8;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+   background: #00FA9A;
+}
+
+/* ===========================================================================================
+	Footer
+   =========================================================================================== */
+
+footer {
+	height: 2rem;
+	width: 100%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background-color: #a4c8ff;
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	color: #fff;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.pawprint-footer {
+	height: 2rem;
+}
+
+
+
+/* ===========================================================================================
+	WP Classes
+   =========================================================================================== */
+.wp-caption {
+	background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%; /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+.wp-caption-text {
+	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1.25rem;
+	font-weight: 300;
+	line-height: 2;
+	text-align: center;
+}
+
+.sticky {
+}
+
+.gallery-caption {
+}
+
+.gallery .gallery-caption { 	
+	font-size: 14px; 
+	line-height: 1.2em; 
+	margin: 10px 0 0; 
+}
+
+.bypostauthor{
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 30px;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 30px;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#respond form p.form-allowed-tags {
+	margin: 0;
+	font-size: 15px;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	color: #5e5e5e;
+}
+
+.single #content .tags {
+	margin: 30px 0;
+}
+
+
+
+/* ===========================================================================================
+	Media Queries
+   =========================================================================================== */
+/* iPhone 4 (320x480) ----------- */
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+	#main-header {
+		height: 5.3rem;
+		width: 100%;
+		padding-top: 1.1rem;
+		font-size: 2rem;
+	}
+
+	.pawprint {
+		height: 1.7rem;
+	}
+
+	nav {
+		width: 100%;
+		padding-top: 0.7rem;
+		font-size: 0.8rem;
+		font-weight: 100;
+	}
+
+	#nav-link {
+		margin: 0 0.7rem;
+	}
+
+	#teaser-container {
+		width: 100%;
+		padding-top: 2.8rem;
+		padding-bottom: 2.8rem;
+		font-size: 0.9rem;
+		line-height: 1.5;
+	}
+
+	#circles-container {
+		height: 63rem;
+		width: 53%;
+		text-align: justify;
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 11rem;
+		padding-bottom: 2rem;
+		font-size: 0.9rem;
+	}
+	
+	.fabric-img,
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		width: 9rem;
+		padding-bottom: 0.5rem;
+	}
+
+	#quiet {
+		width: 90%;
+		padding: 2rem 1rem 6rem 1rem;
+		padding-bottom: 6rem;
+		font-size: 0.9rem;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	/* ABOUT PAGE - iPhone 4 (320x480) */
+	#about-container {
+		width: 55%;
+		margin: 0px auto 120px auto;
+	}
+
+	.about-name {
+		margin: 0px auto;
+		font-size: 45px;
+	}
+
+	#wesley-container {
+		width: 100%;
+	}
+
+	#wesley-pic {
+		margin: 0px auto;
+		text-align: center;
+	}
+
+	.Wesley-img, .Buddy-img {
+		width: 200px;
+	}
+
+	#ampersand {
+		width: 100%;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		padding-left: 0;
+		font-size: 60px;
+		text-align: center;
+	}
+
+	#buddy-container {
+		width: 100%;
+	}
+
+	#buddy-pic {
+		margin: 0px auto;
+		text-align: center;
+	}
+
+	/* Contact - iPhone 4 (320x480) ----------------- */
+	#contact {
+		text-align: center;
+		-ms-text-justify: distribute-all-lines;
+		text-justify:distribute-all-lines;
+	}
+
+	#contact-content {
+		width: 80%; /* moves contact content */
+		padding-bottom: 0;
+	}
+
+	h1 {
+		padding-bottom: -1rem;
+		font-weight: 400;
+	}
+
+	p {
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.4;
+	}
+
+	form {
+		margin-left: -2rem; /* moves form left/right */
+		width: 300px;
+	}
+
+	table {
+		line-height: 1.6;
+	}
+
+	label {
+		font-size: 1rem;
+	}
+
+	td {
+		text-align: left;
+	}
+
+	#name {
+		width: 200px;
+	}
+
+	#email {
+		width: 200px;
+	}
+
+	#subject {
+		width: 200px;
+	}
+
+	#message {
+		width: 200px;
+	}
+
+	input[type="submit"] {
+		width: 200px;
+	  margin-left: 5.4rem;
+	}
+}
+
+/* Smartphones (iPhone portrait) ----------- */
+@media screen and (min-width: 300px) and (max-width: 509px) {
+	#main-header {
+		height: 5.3rem;
+		width: 100%;
+		padding-top: 1.1rem;
+		font-size: 2rem;
+	}
+
+	.pawprint {
+		height: 1.7rem;
+	}
+
+	nav {
+		padding-top: 0.7rem;
+		font-size: 0.8rem;
+		font-weight: 100;
+	}
+
+	#nav-link {
+		margin: 0 0.7rem;
+	}
+
+	#teaser-container {
+		width: 100%;
+		padding-top: 2.8rem;
+		padding-bottom: 2.8rem;
+		font-size: 1.1rem;
+		line-height: 1.5;
+	}
+
+	#circles-container {
+		height: 67rem;
+		width: 170px;
+		text-align: justify;
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 11rem;
+		padding-bottom: 2rem;
+		font-size: 1rem;
+	}
+	
+	.fabric-img,
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		height: 9rem;
+		padding-bottom: 0.5rem;
+	}
+
+	#quiet {
+		width: 90%;
+		padding: 2rem 1rem 6rem 1rem;
+		font-size: 1rem;
+		font-weight: 400;
+		text-align: center;
+	}
+/* ABOUT PAGE (min-width: 300px) and (max-width: 509px) */
+	#about-container {
+		width: 55%;
+		height: 100%;
+		margin: 0 auto 48rem auto;
+	}
+
+	.about-name {
+		margin: 0 auto;
+		font-size: 45px;
+	}
+
+	#wesley-container {
+		width: 100%;
+	}
+
+	#wesley-pic {
+		margin: 0px auto;
+		text-align: center;
+	}
+
+	.Wesley-img, .Buddy-img {
+		width: 200px;
+	}
+
+	#ampersand {
+		width: 100%;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		padding-left: 0;
+		font-size: 60px;
+		text-align: center;
+	}
+
+	#buddy-container {
+		width: 100%;
+		padding-bottom: 4rem;
+	}
+
+	#buddy-pic {
+		margin: 0px auto;
+		text-align: center;
+	}
+
+/* Contact (min-width: 300px) and (max-width: 509px) ------------- */
+	#contact {
+		width: 80%; /* moves contact content div */
+	}
+
+	#contact-content {
+		padding-bottom: 0;
+	}
+
+	h1 {
+		padding-bottom: -16px;
+		font-weight: 400;
+	}
+
+	p {
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.4;
+	}
+
+	form {
+		margin-left: 2rem; /* moves form left/right */
+		width: 300px;
+	}
+
+	table {
+		line-height: 1.6;
+	}
+
+	label {
+		font-size: 1rem;
+	}
+
+	td {
+		text-align: left;
+	}
+
+	#name {
+		width: 200px;
+	}
+
+	#email {
+		width: 200px;
+	}
+
+	#subject {
+		width: 200px;
+	}
+
+	#message {
+		width: 200px;
+	}
+
+	input[type="submit"] {
+		width: 200px;
+	  margin-left: 5.4rem; 
+	}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-width: 509px) and (max-width: 600px) {
+	#main-header {
+		height: 5.8rem;
+		width: 100%;
+		padding-top: 1.1rem;
+		font-size: 2.2rem;
+	}
+
+	.pawprint {
+		height: 2rem;
+	}
+
+	nav {
+		padding-top: 0.7rem;
+	}
+
+	#nav-link {
+		margin: 0 0.85rem;
+		font-size: 1rem;
+		font-weight: 100;
+	}
+
+	#teaser-container {
+		width: 100%;
+		padding-top: 2.8rem;
+		padding-bottom: 2.8rem;
+		font-size: 1.2rem;
+		line-height: 1.9;
+	}
+
+	#circles-container {
+		height: 72rem;
+		width: 170px;
+		text-align: justify;
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 11rem;
+		padding-bottom: 2rem;
+		font-size: 0.95rem;
+	}
+	
+	.fabric-img,
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		width: 11rem;
+		padding-bottom: 0.5rem;
+	}
+
+	/* ABOUT PAGE (min-width: 509px) and (max-width: 600px) */
+	#about-container {
+		width: 87%;
+		margin: 0px auto 120px auto;
+		z-index: 1;
+	}
+
+	#wesley-container {
+		width: 39%;
+		float: left;
+	}
+
+	#ampersand {
+		width: 43px;
+		float: left;
+		padding-left: 2.5rem;
+		font-size: 60px;
+	}
+
+	#buddy-container {
+		width: 36%;
+		margin: 0px auto;
+		padding-right: 1rem;
+		float: right;
+	}
+
+	.wesley-img, .buddy-img {
+		width: 200px;
+	}
+
+	.about-name {
+		margin: 0px auto;
+		font-size: 50px;
+	}
+
+	/*  Contact (min-width: 509px) and (max-width: 600px) */
+	#contact-content {
+		padding-bottom: 1rem;
+	}
+
+	h1 {
+		padding-bottom: -16px;
+		font-weight: 400;
+	}
+
+	p {
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.4;
+	}
+
+	label {
+		font-size: 1rem;
+	}
+
+	td {
+		text-align: left;
+	}
+
+	#name {
+		width: 270px;
+	}
+
+	#email {
+		width: 270px;
+	}
+
+	#subject {
+		width: 270px;
+	}
+
+	#message {
+		width: 270px;
+	}
+
+	input[type="submit"] {
+		width: 270px;
+	  margin-left: 3.5rem; 
+	  margin-right: auto;
+	}
+}
+
+/* Smartphones (portrait) custom ----------- */
+@media screen and (min-width: 600px) and (max-width: 660px) {
+	#main-header {
+		height: 7.1rem;
+		width: 100%;
+		padding-top: 1.2rem;
+		font-size: 2.6rem;
+	}
+
+	.pawprint {
+		height: 2rem;
+	}
+
+	nav {
+		padding-top: 1.2rem;
+		font-size: 1rem;
+		font-weight: 100;
+	}
+
+	#teaser-container {
+		width: 100%;
+		padding-top: 3.2rem;
+		font-size: 1.2rem;
+		line-height: 1.9;
+	}
+
+	#circles-container {
+		height: 18rem;
+		width: 90%;
+		text-align: justify;
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 8rem;
+		padding-bottom: 2rem;
+		font-size: 0.85rem;
+	}
+	
+	.fabric-img,
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		height: 8rem;
+		padding-bottom: 0.5rem;
+	}
+
+	/* ABOUT PAGE (min-width: 600px) and (max-width: 660px) */
+	#about-container {
+		width: 85%;
+		margin: 0px auto 120px auto;
+		z-index: 1;
+	}
+
+	#wesley-container {
+		width: 35%;
+		float: left;
+	}
+
+	#ampersand {
+		width: 43px;
+		float: left;
+		padding-left: 4rem;
+		font-size: 65px;
+	}
+
+	#buddy-container {
+		width: 35%;
+		margin: 0px auto;
+		padding-right: 1rem;
+		float: right;
+	}
+
+	.Wesley-img, .Buddy-img {
+		width: 215px;
+	}
+
+	.about-name {
+		margin: 0px auto;
+	}
+}
+
+/* Smartphones (landscape) custom ----------- */
+@media screen and (min-width: 660px) and (max-width: 740px) {
+	#main-header {
+		height: 7.1rem;
+		width: 100%;
+		padding-top: 1.2rem;
+		font-size: 2.6rem;
+	}
+
+	.pawprint {
+		height: 2.5rem;
+	}
+
+	nav {
+		padding-top: 1.2rem;
+		font-size: 1rem;
+		font-weight: 100;
+	}
+
+	#teaser-container {
+		width: 100%;
+		padding-top: 3.2rem;
+		font-size: 1.2rem;
+		line-height: 1.9;
+	}
+
+	#circles-container {
+		height: 16rem;
+		width: 90%;
+		text-align: justify;
+		/* -ms-text-justify: distribute-all-lines;
+		text-justify:distribute-all-lines; */
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 9rem;
+		padding-bottom: 2rem;
+		font-size: 0.85rem;
+	}
+	
+	.fabric-img,
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		height: 9rem;
+		padding-bottom: 0.5rem;
+	}
+
+/* ABOUT PAGE (min-width: 660px) and (max-width: 740px) */
+	#about-container {
+		width: 83%;
+		margin: 0px auto 3rem auto;
+		z-index: 1;
+	}
+
+	#wesley-container {
+		width: 35%;
+		float: left;
+	}
+
+	#ampersand {
+		width: 43px;
+		float: left;
+		padding-left: 4rem;
+		font-size: 65px;
+	}
+
+	#buddy-container {
+		width: 35%;
+		margin: 0px auto;
+		padding-right: 1rem;
+		float: right;
+	}
+
+	.Wesley-img, .Buddy-img {
+		width: 215px;
+	}
+
+	.about-name {
+		margin: 0px auto;
+	}
+}
+
+/* Smartphones (landscape) custom ----------- */
+@media screen and (min-width: 740px) and (max-width: 809px) {
+	#main-header {
+		height: 7.4rem;
+		width: 100%;
+		padding-top: 1.3rem;
+		font-size: 2.8rem;
+	}
+
+	.pawprint {
+		height: 2.6rem;
+	}
+
+	nav {
+		padding-top: 1.2rem;
+		font-size: 1rem;
+		font-weight: 100;
+	}
+
+	#teaser-container {
+		width: 100%;
+		padding-top: 4rem;
+		font-size: 1.2rem;
+		line-height: 1.9;
+	}
+
+	#circles-container {
+		height: 17rem;
+		width: 90%;
+		text-align: justify;
+		/* -ms-text-justify: distribute-all-lines;
+		text-justify:distribute-all-lines; */
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 9.8rem;
+		padding-bottom: 3rem;
+		font-size: 0.85rem;
+	}
+	
+	.fabric-img,
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		height: 9.5rem;
+		padding-bottom: 0.5rem;
+	}
+
+/* ABOUT PAGE (min-width: 740px) and (max-width: 809px) */
+	#about-container {
+		width: 80%;
+		margin: 0px auto;
+		z-index: 1;
+	}
+
+	#wesley-container {
+		float: left;
+	}
+
+	#ampersand {
+		float: left;
+	}
+
+	#buddy-container {
+		float: right;
+	}
+}
+
+
+/* Custom (landscape) ----------- */
+@media screen and (min-width: 809px) and (max-width: 886px) {
+	#main-header {
+		height: 7.4rem;
+		width: 100%;
+		padding-top: 1.3rem;
+		font-size: 2.8rem;
+	}
+
+	.pawprint {
+		height: 2.6rem;
+	}
+
+	nav {
+		padding-top: 1.2rem;
+		font-size: 1rem;
+		font-weight: 100;
+	}
+
+	#teaser-container {
+		width: 100%;
+		padding-top: 4rem;
+		font-size: 1.2rem;
+		line-height: 1.9;
+	}
+
+	#circles-container {
+		height: 18rem;
+		width: 90%;
+		text-align: justify;
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 11rem;
+		zoom: 1;
+		padding-bottom: 3rem;
+		font-size: 0.9rem;
+	}
+	
+	.fabric-img, 
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		height: 10rem;
+		padding-bottom: 0.5rem;
+	}
+
+	/* ABOUT PAGE (min-width: 809px) and (max-width: 886px) */
+	#about-container {
+		width: 80%;
+		z-index: 1;
+	}
+
+	#wesley-container {
+		float: left;
+	}
+
+	#ampersand {
+		float: left;
+	}
+
+	#buddy-container {
+		float: right;
+	}
+
+	.about-title {
+		padding-left: 1rem;
+	}
+
+	.about-descrip {
+		padding-left: 1rem;
+	}
+}
+
+/* Custom (landscape) ----------- */
+@media screen and (min-width: 886px) and (max-width: 948px) {
+	#main-header {
+		height: 7.4rem;
+		width: 100%;
+		padding-top: 1.3rem;
+		font-size: 2.8rem;
+	}
+
+	.pawprint {
+		height: 2.6rem;
+	}
+
+	nav {
+		padding-top: 1.2rem;
+		font-size: 1rem;
+		font-weight: 100;
+	}
+
+	#teaser-container {
+		width: 100%;
+		padding-top: 4rem;
+		font-size: 1.2rem;
+		line-height: 1.9;
+	}
+
+	#circles-container {
+		height: 18rem;
+		width: 95%;
+		text-align: justify;
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 11rem;
+		zoom: 1;
+		padding-bottom: 3rem;
+		font-size: 0.9rem;
+	}
+	
+	.fabric-img,
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		height: 10rem;
+		padding-bottom: 0.5rem;
+	}
+
+	/* ABOUT PAGE (min-width: 886px) and (max-width: 948px) */
+	#about-container {
+		z-index: 1;
+	}
+
+	#wesley-container {
+		float: left;
+	}
+
+	.wesley-img {
+		width: 246px;
+	}
+
+	#ampersand {
+		float: left;
+	}
+
+	#buddy-container {
+		float: right;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-width: 948px) and (max-width: 1023px) {
+	#circles-container {
+		height: 20rem;
+		width: 90%;
+		margin: 0 auto;
+		text-align: justify;
+	}
+
+	/* ABOUT PAGE (min-width: 948px) and (max-width: 1023px) */
+	#about-container {
+		z-index: 1;
+	}
+
+	#wesley-container {
+		float: left;
+	}
+
+	.wesley-img {
+		width: 246px;
+	}
+
+	#ampersand {
+		float: left;
+	}
+
+	#buddy-container {
+		float: right;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media screen and (min-width: 1024px) {
+	#circles-container {
+		height: 20rem;
+		width: 940px;
+		margin: 0 auto;
+		text-align: justify;
+	}
+
+	/* ABOUT PAGE (min-width: 1024px) */
+	#about-container {
+		z-index: 1;
+	}
+
+	#wesley-container {
+		float: left;
+	}
+
+	.wesley-img {
+		width: 246px;
+	}
+
+	#ampersand {
+		float: left;
+	}
+
+	#buddy-container {
+		float: right;
+	}
+}
+
+/* Large screens ----------- */
+@media screen and (min-width: 1181px) {
+	#circles-container {
+		height: 20rem;
+		width: 970px;
+		margin: 0 auto;
+		text-align: justify;
+	}
+
+	/* ABOUT PAGE (min-width: 1181px) */
+	#about-container {
+		z-index: 1;
+	}
+
+	#wesley-container {
+		float: left;
+	}
+
+	.wesley-img {
+		width: 246px;
+	}
+
+	#ampersand {
+		float: left;
+	}
+
+	#buddy-container {
+		float: right;
+	}
+}
