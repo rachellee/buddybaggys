@@ -342,7 +342,6 @@ body {
 #about-container {
 	width: 100%;
 	max-width: 700px;
-	height: 100%;
 	margin: 0px auto 80px auto;
 	padding-top: 5rem;
 	color: #3c3c3c;
@@ -359,7 +358,8 @@ body {
 
 .about-name {
 	padding-bottom: 2rem;
-	font-family: "intro", "Fira Sans", "Magra", "Roboto", "Hind";
+	font-family: "intro", "Hind", "Roboto";
+	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 55px;
 	text-align: center;
@@ -854,8 +854,8 @@ footer {
 /* ABOUT PAGE (min-width: 300px) and (max-width: 469px) */
 	#about-container {
 		width: 55%;
-		height: 100%;
-		margin: 0 auto 48rem auto;
+		height: 115rem;
+		margin: 0 auto 5rem auto;
 	}
 
 	.about-name {
@@ -955,7 +955,7 @@ footer {
 }
 
 
-/* Smartphones (iPhone portrait) ----------- */
+/* Smartphones (iPhone portrait) ------------------------------------------- */
 @media screen and (min-width: 477px) and (max-width: 509px) {
 	#main-header {
 		height: 5.3rem;
@@ -1046,11 +1046,11 @@ footer {
 		height: 9rem;
 	}
 
-/* ABOUT PAGE (min-width: 300px) and (max-width: 509px) */
+/* ABOUT PAGE (min-width: 477px) and (max-width: 509px) */
 	#about-container {
 		width: 55%;
-		height: 100%;
-		margin: 0 auto 48rem auto;
+		height: 93rem;
+		margin: 0 auto 5rem auto;
 	}
 
 	.about-name {
@@ -1149,7 +1149,7 @@ footer {
 	}
 }
 
-/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (portrait and landscape) -------------------------------------- */
 @media screen and (min-width: 509px) and (max-width: 600px) {
 	#main-header {
 		height: 5.8rem;
@@ -1235,8 +1235,9 @@ footer {
 	/* ABOUT PAGE (min-width: 509px) and (max-width: 600px) */
 	#about-container {
 		width: 87%;
-		margin: 0px auto 120px auto;
+		margin: 0px auto 5rem auto;
 		z-index: 1;
+		height: 53rem;
 	}
 
 	#wesley-container {
@@ -1315,7 +1316,7 @@ footer {
 	}
 }
 
-/* Smartphones (portrait) custom ----------- */
+/* Smartphones (portrait) custom ------------------------------------------------ */
 @media screen and (min-width: 600px) and (max-width: 660px) {
 	#main-header {
 		height: 7.1rem;
@@ -1396,8 +1397,9 @@ footer {
 	/* ABOUT PAGE (min-width: 600px) and (max-width: 660px) */
 	#about-container {
 		width: 85%;
-		margin: 0px auto 120px auto;
+		margin: 0 auto 5rem auto;
 		z-index: 1;
+		height: 55rem;
 	}
 
 	#wesley-container {
@@ -1428,7 +1430,7 @@ footer {
 	}
 }
 
-/* Smartphones (landscape) custom ----------- */
+/* Smartphones (landscape) custom -------------------------------------------- */
 @media screen and (min-width: 660px) and (max-width: 740px) {
 	#main-header {
 		height: 7.1rem;
@@ -1520,6 +1522,7 @@ footer {
 		width: 83%;
 		margin: 0px auto 3rem auto;
 		z-index: 1;
+		height: 53rem;
 	}
 
 	#wesley-container {
@@ -1550,7 +1553,7 @@ footer {
 	}
 }
 
-/* Smartphones (landscape) custom ----------- */
+/* Smartphones (landscape) custom ------------------------------------------ */
 @media screen and (min-width: 740px) and (max-width: 809px) {
 	#main-header {
 		height: 7.4rem;
@@ -1625,6 +1628,7 @@ footer {
 		width: 80%;
 		margin: 0px auto;
 		z-index: 1;
+		height: 57rem;
 	}
 
 	#wesley-container {
@@ -1641,7 +1645,7 @@ footer {
 }
 
 
-/* Custom (landscape) ----------- */
+/* Custom (landscape) ------------------------------------------------------ */
 @media screen and (min-width: 809px) and (max-width: 886px) {
 	#main-header {
 		height: 7.4rem;
@@ -1714,6 +1718,7 @@ footer {
 	#about-container {
 		width: 80%;
 		z-index: 1;
+		height: 50rem;
 	}
 
 	#wesley-container {
@@ -1737,7 +1742,7 @@ footer {
 	}
 }
 
-/* Custom (landscape) ----------- */
+/* Custom (landscape) ----------------------------------------------------- */
 @media screen and (min-width: 886px) and (max-width: 948px) {
 	#main-header {
 		height: 7.4rem;
@@ -1809,6 +1814,7 @@ footer {
 	/* ABOUT PAGE (min-width: 886px) and (max-width: 948px) */
 	#about-container {
 		z-index: 1;
+		height: 50rem;
 	}
 
 	#wesley-container {
@@ -1828,7 +1834,7 @@ footer {
 	}
 }
 
-/* iPads (portrait and landscape) ----------- */
+/* iPads (portrait and landscape) ---------------------------------------------- */
 @media screen and (min-width: 948px) and (max-width: 1023px) {
 	#circles-container {
 		height: 20rem;
@@ -1859,6 +1865,7 @@ footer {
 	/* ABOUT PAGE (min-width: 948px) and (max-width: 1023px) */
 	#about-container {
 		z-index: 1;
+		height: 50rem;
 	}
 
 	#wesley-container {
@@ -1878,7 +1885,7 @@ footer {
 	}
 }
 
-/* Desktops and laptops ----------- */
+/* Desktops and laptops ------------------------------------------ */
 @media screen and (min-width: 1024px) {
 	#circles-container {
 		height: 20rem;
@@ -1909,6 +1916,7 @@ footer {
 	/* ABOUT PAGE (min-width: 1024px) */
 	#about-container {
 		z-index: 1;
+		height: 50rem;
 	}
 
 	#wesley-container {
@@ -1928,7 +1936,7 @@ footer {
 	}
 }
 
-/* Large screens ----------- */
+/* Large screens --------------------------------------------------------- */
 @media screen and (min-width: 1181px) {
 	#circles-container {
 		height: 20rem;
@@ -1960,6 +1968,7 @@ footer {
 	/* ABOUT PAGE (min-width: 1181px) */
 	#about-container {
 		z-index: 1;
+		height: 50rem;
 	}
 
 	#wesley-container {

@@ -4,6 +4,9 @@
 	$pageTitle = "Buddy's Baggys - Sustainable Dog Bags";
 include('inc/header.php'); ?>
 
+<script src="//use.typekit.net/qdq8opi.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
 
 	<div id="teaser-container">
 		There are many options for poop bag holders,<BR />but we're better than the others.
