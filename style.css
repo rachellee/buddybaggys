@@ -668,7 +668,8 @@ footer {
 	/* ABOUT PAGE - iPhone 4 (320x480) */
 	#about-container {
 		width: 55%;
-		margin: 0px auto 120px auto;
+		margin: 0px auto 4rem auto;
+		height: 60rem;
 	}
 
 	.about-name {
@@ -769,7 +770,7 @@ footer {
 	}
 }
 
-
+/* Contact (min-width: 300px) and (max-width: 477px) --------------------------------------------- */
 @media screen and (min-width: 300px) and (max-width: 477px) {
 	#main-header {
 		height: 5.3rem;
@@ -854,7 +855,7 @@ footer {
 /* ABOUT PAGE (min-width: 300px) and (max-width: 469px) */
 	#about-container {
 		width: 65%;
-		height: 93rem;
+		height: 97rem;
 		margin: 0 auto 5rem auto;
 	}
 
