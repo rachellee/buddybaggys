@@ -44,23 +44,23 @@ include('inc/header.php'); ?>
 		Available Now!
 	</div>
 
-	<div id="bags-container">
+	<div class="bags-container">
 
-		<div id="bag1" class="border-fade">
+		<div class="bag1 border-fade">
 			<a href="shop.php"><img src="images/buddybaggy.jpg" class="buddybaggypic" alt="Buddy Baggy 1"></a><BR />
 				<a href="shop.php">Blue</a>
 		</div>
-		<div id="bag2" class="border-fade">
+		<div class="bag2 border-fade">
 			<a href="shop.php"><img src="images/buddybaggy.jpg" class="buddybaggypic" alt="Buddy Baggy 2"><BR />
 				Red</a>
 		</div>
 
-		<div id="bag3" class="border-fade">
+		<div class="bag3 border-fade">
 			<a href="shop.php"><img src="images/buddybaggy.jpg" class="buddybaggypic" alt="Buddy Baggy 3"><BR />
 				Granola</a>
 		</div>
 
-		<div id="bag4" class="border-fade">
+		<div class="bag4 border-fade">
 			<a href="shop.php"><img src="images/buddybaggy.jpg" class="buddybaggypic" alt="Buddy Baggy 4"><BR />
 				Green</a>
 		</div>	
