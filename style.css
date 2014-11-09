@@ -46,6 +46,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:700|Magra:700|Roboto:900|Hind:700);
 
 /* ===========================================================================================
 	Header
@@ -358,7 +359,8 @@ body {
 
 .about-name {
 	padding-bottom: 2rem;
-	font-family: "intro";
+	font-family: "intro", "Fira Sans", "Magra", "Roboto", "Hind";
+	font-weight: 900;
 	font-size: 55px;
 	text-align: center;
 }
