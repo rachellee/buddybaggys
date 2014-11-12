@@ -852,11 +852,16 @@ footer {
 		height: 11rem;
 	}
 
+	#shop-text {
+		padding-top: 2rem;
+	}
+
 /* ABOUT PAGE (min-width: 300px) and (max-width: 469px) */
 	#about-container {
 		width: 65%;
 		height: 97rem;
 		margin: 0 auto 5rem auto;
+		padding-top: 2rem;
 	}
 
 	.about-name {
@@ -899,10 +904,7 @@ footer {
 /* Contact (min-width: 300px) and (max-width: 469px) ------------- */
 	#contact {
 		width: 80%; /* moves contact content div */
-	}
-
-	#contact-content {
-		padding-bottom: 0;
+		padding-top: 0.5rem;
 	}
 
 	h1 {
@@ -917,20 +919,23 @@ footer {
 	}
 
 	form {
-		margin-left: 2rem; /* moves form left/right */
+		margin-left: 0rem; /* moves form left/right */
 		width: 300px;
 	}
 
 	table {
-		line-height: 1.6;
+		text-align: right;
 	}
 
 	label {
 		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 
 	td {
 		text-align: left;
+		padding-left: 0;
+		height: 2rem;
 	}
 
 	#name {
