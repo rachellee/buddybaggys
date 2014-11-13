@@ -399,7 +399,7 @@ body {
 #contact {
 	width: 85%;
 	margin: 0 auto;
-	padding-top: 4rem;
+	padding-top: 3rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
 	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
@@ -770,7 +770,7 @@ footer {
 	}
 }
 
-/* Contact (min-width: 300px) and (max-width: 477px) --------------------------------------------- */
+/* Smartphones custom --------------------------------------------- */
 @media screen and (min-width: 300px) and (max-width: 477px) {
 	#main-header {
 		height: 5.3rem;
@@ -905,6 +905,7 @@ footer {
 	#contact {
 		width: 80%; /* moves contact content div */
 		padding-top: 0.5rem;
+
 	}
 
 	h1 {
@@ -919,7 +920,7 @@ footer {
 	}
 
 	form {
-		margin-left: 0rem; /* moves form left/right */
+		margin-left: -2rem; /* moves form left/right */
 		width: 300px;
 	}
 

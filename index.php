@@ -1,5 +1,3 @@
-
-
 <?php
 	$pageTitle = "Buddy's Baggys - Sustainable Dog Bags";
 include('inc/header.php'); ?>
