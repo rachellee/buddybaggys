@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = "Buddy's Baggys - Sustainable Dog Bags";
+	$pageTitle = "Doo Dogs - Sustainable Dog Bags";
 include('inc/header.php'); ?>
 
 <script src="//use.typekit.net/qdq8opi.js"></script>
