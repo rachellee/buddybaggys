@@ -12,7 +12,7 @@ include('inc/header.php'); ?>
 
 	<div id="circles-container">
 		<div id="fabric-container">
-			<img src="images/bamboo_fabric.png" class="fabric-img" alt="Bamboo Fabric"><BR />
+			<img src="images/beige_bamboo_fabric.jpg" class="fabric-img" alt="Bamboo Fabric"><BR />
 				<strong>BUILT TO LAST</strong><BR />
 				Made from strong, flexible bamboo fabric and double reinforced.
 		</div>
