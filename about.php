@@ -15,10 +15,13 @@ include('inc/header.php'); ?>
 			Designer & Seamstress
 		</div>
 		<div class="about-descrip">
-			Full-time marketing assistant and dog lover.<BR /><BR />
-			Part-time innovator, fighter for planet Earth, and perpetual DIY-er.<BR /><BR />
-			I came up with Buddy Baggys when I was walking him one day and the poop bag holder got soaking wet from the ran, causing all the bags inside to get wet as well. I decided I was sick of carrying around wet bags. blah blah blah.<BR /><BR />
-			I hope you love Buddy Baggys as much as I do!
+			Full-time marketer and dog lover.<BR /><BR />
+			Part-time innovator and perpetual DIY-er.<BR /><BR />
+			Like most inventions, Buddy Baggys were born out of necessity.
+			One day on a walk with my dog I realized we were trailing about
+			6 feet of poop bags out of the broken plastic dispenser.
+			After some research, a little experimentation, and a lot of
+			buttons, Buddy Baggys were born! I hope you love them as much as I do!
 		</div>
 	</div>
 	
@@ -37,9 +40,10 @@ include('inc/header.php'); ?>
 			Parter in Crime & Muse
 		</div>
 		<div class="about-descrip">
-			My boyfriend and I adopted Buddy when he was 3 months old from our local Humane Society.<BR /><BR />
-			Buddy is an adorable Heinz 57 pup who loves chasing squirrels, visiting the dog park, and taking long, furry naps on the nicest rug in the house.<BR /><BR />
-			He is the inspiration behind Buddy Baggys and the best dog I could have asked for.
+			We adopted Buddy from the local shelter just after his first birthday.<BR /><BR />
+			Buddy is an adorable Heinz 57 pup who loves chasing squirrels, visiting the dog park,
+			and taking long, furry naps on the nicest rug in the house.
+			He is the inspiration behind Buddy Baggys and in my unbiased opinion, the best dog ever.
 		</div>
 	</div>
 </div>

@@ -5,7 +5,7 @@ include('inc/header.php'); ?>
 
 
 <div id="shop-text">
-		Get yours today
+		Get yours today via our Etsy shop
 	</div>
 
 	<div class="bags-container">

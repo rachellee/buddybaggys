@@ -19,12 +19,12 @@ include('inc/header.php'); ?>
 		<div id="sustainable-container">
 			<img src="images/bamboo_circle.png" class="bamboo-img" alt="Sustainable Bamboo"><BR />
 				<strong>SUSTAINABLE</strong><BR />
-				Bamboo is organic, gentle on the Earth, and doesn't use pesticides to grow.
+				Bamboo is organic, gentle on the earth, and doesn't use pesticides to grow.
 		</div>
 		<div id="reload-container">
 			<img src="images/cleanup_bags.png" class="bags-img" alt="Reload bags"><BR />
 				<strong>RELOAD WITH ANY BAG</strong><BR />
-				We still haven't found a bag that doesn't fit!
+				We still haven't found a brand of bag that doesn't fit!
 		</div>
 		<div id="wash-container">
 			<img src="images/machine_washable.jpeg" class="machine-img" alt="Washing Machine"><BR />

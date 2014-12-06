@@ -25,7 +25,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 			4) Contact page - line 363
 			5) Footer - line 481
 			6) WP css classes
-			7) Media Queries - line 506
+			7) Media Queries - line 601
 					iPhone 4 (320x480) - line 509
 					(min-width: 300px) and (max-width: 509px) - line 677
 					(min-width: 509px) and (max-width: 600px) - line 841
@@ -179,7 +179,7 @@ body {
 	width: 100%;
 	padding-bottom: 2rem;
 	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
-	font-size: 1.5rem;
+	font-size: 3rem;
 	font-weight: 300;
 	color: #0dcd43;
 	text-align: center;
