@@ -7,6 +7,10 @@
 	<link href="style.css" media="all" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
 	<script src="//use.typekit.net/qdq8opi.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 
