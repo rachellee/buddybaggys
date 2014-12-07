@@ -12,7 +12,7 @@ include('inc/header.php'); ?>
 
 	<div id="circles-container">
 		<div id="fabric-container">
-			<img src="images/beige_bamboo_fabric.png" class="fabric-img" alt="Bamboo Fabric"><BR />
+			<img src="images/bamboo_fabric.png" class="fabric-img" alt="Bamboo Fabric"><BR />
 				<strong>BUILT TO LAST</strong><BR />
 				Made from strong, flexible bamboo fabric and double reinforced.
 		</div>
@@ -45,22 +45,22 @@ include('inc/header.php'); ?>
 	<div class="bags-container">
 
 		<div class="bag1 border-fade">
-			<a href="shop.php"><img src="images/buddybaggy.jpg" class="buddybaggypic" alt="Buddy Baggy 1"></a><BR />
-				<a href="shop.php">Blue</a>
+			<a href="shop.php"><img src="images/gray_blue.jpg" class="buddybaggypic" alt="1. Grayish Blue Buddy Baggy"></a><BR />
+				<a href="shop.php">Original</a>
 		</div>
 		<div class="bag2 border-fade">
-			<a href="shop.php"><img src="images/buddybaggy.jpg" class="buddybaggypic" alt="Buddy Baggy 2"><BR />
-				Red</a>
+			<a href="shop.php"><img src="images/teal.jpg" class="buddybaggypic" alt="2. Teal Buddy Baggy"><BR />
+				Teal</a>
 		</div>
 
 		<div class="bag3 border-fade">
-			<a href="shop.php"><img src="images/buddybaggy.jpg" class="buddybaggypic" alt="Buddy Baggy 3"><BR />
-				Granola</a>
+			<a href="shop.php"><img src="images/red.jpg" class="buddybaggypic" alt="3. Red Buddy Baggy"><BR />
+				Red Rover</a>
 		</div>
 
 		<div class="bag4 border-fade">
-			<a href="shop.php"><img src="images/buddybaggy.jpg" class="buddybaggypic" alt="Buddy Baggy 4"><BR />
-				Green</a>
+			<a href="shop.php"><img src="images/royal_blue.jpg" class="buddybaggypic" alt="4. Royal Blue Buddy Baggy"><BR />
+				Royal Blue</a>
 		</div>	
 		<span class="stretch"></span>
 	</div>
