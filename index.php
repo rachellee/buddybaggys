@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = "Doo Dogs - Sustainable Dog Bags";
+	$pageTitle = "Doo Dog - Sustainable Dog Bags";
 include('inc/header.php'); ?>
 
 <script src="//use.typekit.net/qdq8opi.js"></script>
@@ -45,21 +45,21 @@ include('inc/header.php'); ?>
 	<div class="bags-container">
 
 		<div class="bag1 border-fade">
-			<a href="shop.php"><img src="images/gray_blue.jpg" class="buddybaggypic" alt="1. Grayish Blue Buddy Baggy"></a><BR />
-				<a href="shop.php">Original</a>
+			<a href="shop.php"><img src="images/gray_blue.jpg" class="buddybaggypic" alt="1. Grayish Blue Doo Dog"></a><BR />
+				<a href="shop.php">Greyhound</a>
 		</div>
 		<div class="bag2 border-fade">
-			<a href="shop.php"><img src="images/teal.jpg" class="buddybaggypic" alt="2. Teal Buddy Baggy"><BR />
+			<a href="shop.php"><img src="images/teal.jpg" class="buddybaggypic" alt="2. Teal Doo Dog"><BR />
 				Teal</a>
 		</div>
 
 		<div class="bag3 border-fade">
-			<a href="shop.php"><img src="images/red.jpg" class="buddybaggypic" alt="3. Red Buddy Baggy"><BR />
+			<a href="shop.php"><img src="images/red.jpg" class="buddybaggypic" alt="3. Red Doo Dog"><BR />
 				Red Rover</a>
 		</div>
 
 		<div class="bag4 border-fade">
-			<a href="shop.php"><img src="images/royal_blue.jpg" class="buddybaggypic" alt="4. Royal Blue Buddy Baggy"><BR />
+			<a href="shop.php"><img src="images/royal_blue.jpg" class="buddybaggypic" alt="4. Royal Blue Doo Dog"><BR />
 				Royal Blue</a>
 		</div>	
 		<span class="stretch"></span>
