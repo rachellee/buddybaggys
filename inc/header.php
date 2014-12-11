@@ -33,7 +33,7 @@
 	<header id="main-header">
 
 		<div id="main-header-text">
-			Doo <img src="images/pawprint2.png" class="pawprint" alt="Paw Print"> Dogs
+			Doo <img src="images/pawprint2.png" class="pawprint" alt="Paw Print"> Dog
 		</div>
 		
 		<div role="navigation" class="nav">

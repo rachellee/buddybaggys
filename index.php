@@ -5,9 +5,8 @@ include('inc/header.php'); ?>
 <script src="//use.typekit.net/qdq8opi.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 
-
 	<div id="teaser-container">
-		There are many options for poop bag holders,<BR />but we're better than the others.
+		There are many options for bag dispensers,<BR />but we're better than the others.
 	</div>
 
 	<div id="circles-container">
@@ -50,7 +49,7 @@ include('inc/header.php'); ?>
 		</div>
 		<div class="bag2 border-fade">
 			<a href="shop.php"><img src="images/teal.jpg" class="buddybaggypic" alt="2. Teal Doo Dog"><BR />
-				Teal</a>
+				Tealbetan Terrier</a>
 		</div>
 
 		<div class="bag3 border-fade">
@@ -60,7 +59,7 @@ include('inc/header.php'); ?>
 
 		<div class="bag4 border-fade">
 			<a href="shop.php"><img src="images/royal_blue.jpg" class="buddybaggypic" alt="4. Royal Blue Doo Dog"><BR />
-				Royal Blue</a>
+				Purpillon</a>
 		</div>	
 		<span class="stretch"></span>
 	</div>

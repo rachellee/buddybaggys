@@ -20,10 +20,11 @@ include('inc/header.php'); ?>
 			Like most inventions, Doo Dog was born out of necessity.
 			One day, back in 2012, I was on a walk with Buddy when I realized we were trailing about
 			6 feet of poop bags out of the broken plastic dispenser.
-			Since then, I've been a mission to design the sturdiest dog bag dispenser that was also environmentally friendly.
-			I experiemented, at first, with cotton and hemp, but quickly learned that I needed something with webbing.
-			Then it became of question of how thick of webbing, and how big to make the bags.
-			After 100s of iterations and a lot of buttons, Doo Dog was born!
+			Since then, I've been a mission to design the sturdiest dog bag dispenser that is also environmentally friendly.
+			First, I experiemented with cotton and hemp, but quickly learned that the fabric would stretch and was not sturdy.
+			I needed something with webbing.
+			Then it became of question of how thick of webbing to use and how big to make the bags.
+			I personally tested every single bag and after 100s of iterations (and a lot of buttons!) Doo Dog was born!
 			I hope you love them as much as I do!
 		</div>
 	</div>
@@ -40,7 +41,7 @@ include('inc/header.php'); ?>
 			<img src="images/Buddy.png" class="Buddy-img" alt="Buddy Profile Pic">
 		</div>
 		<div class="about-title">
-			Parter in Crime & Muse
+			Partner in Crime & Muse
 		</div>
 		<div class="about-descrip">
 			We adopted Buddy from the local shelter just after his first birthday.<BR /><BR />
