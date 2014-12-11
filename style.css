@@ -433,14 +433,6 @@ p {
 	text-align: center;
 }
 
-table {
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
-	text-align: right;
-	font-size: 1.1rem;
-	font-weight: 400;
-	line-height: 1.6;
-}
-
 label {
 	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	text-align: right;
@@ -466,24 +458,12 @@ textarea {
   padding: 0;
 }
 
-th {
-	padding: 10px;
-	padding-left: 10px;
+.error {
+	color: red;
+	font-size: 0.8rem;
 }
 
-#name {
-	height: 35px;
-	width: 300px;
-	border-radius: 5px;
-}
-
-#email {
-	height: 35px;
-	width: 300px;
-	border-radius: 5px;
-}
-
-#subject {
+#title {
 	height: 35px;
 	width: 300px;
 	border-radius: 5px;
@@ -736,16 +716,8 @@ footer {
 		width: 300px;
 	}
 
-	table {
-		line-height: 1.6;
-	}
-
 	label {
 		font-size: 1rem;
-	}
-
-	td {
-		text-align: left;
 	}
 
 	#name {
@@ -924,19 +896,9 @@ footer {
 		width: 300px;
 	}
 
-	table {
-		text-align: right;
-	}
-
 	label {
 		font-size: 1rem;
 		font-size: 0.9rem;
-	}
-
-	td {
-		text-align: left;
-		padding-left: 0;
-		height: 2rem;
 	}
 
 	#name {
@@ -1116,17 +1078,8 @@ footer {
 		line-height: 1.4;
 	}
 
-	form {
-		margin-left: 2rem; /* moves form left/right */
-		width: 300px;
-	}
-
 	table {
 		line-height: 1.6;
-	}
-
-	label {
-		font-size: 1rem;
 	}
 
 	td {
@@ -1298,10 +1251,6 @@ footer {
 
 	label {
 		font-size: 1rem;
-	}
-
-	td {
-		text-align: left;
 	}
 
 	#name {
