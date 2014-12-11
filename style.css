@@ -2,29 +2,15 @@
 	* #.# General stylesheet comment
 	*
 	* CSS is organized in order of appearance:
-			1) Home page (header, body) - line 19
-			2) Shop page - line 223
-			3) About page - line 306
-			4) Contact page - line 363
-			5) Footer - line 481
-			6) WP css classes
-			7) Media Queries - line 601
-					iPhone 4 (320x480) - line 509
-					(min-width: 300px) and (max-width: 509px) - line 677
-					(min-width: 509px) and (max-width: 600px) - line 841
-					(min-width: 600px) and (max-width: 660px) - line 977
-					(min-width: 660px) and (max-width: 740px) - line 1061
-					(min-width: 740px) and (max-width: 809px) - line 1147
-					(min-width: 809px) and (max-width: 886px) - line 1219
-					(min-width: 886px) and (max-width: 948px) - line 1296
-					(min-width: 948px) and (max-width: 1023px) - line 1368
-					min-width: 1024px - line 1399
-					min-width: 1181px - line 1430
-	* Media Queries are located on the bottom of the stylesheet.
+			1) Home page (header, body)
+			2) Shop page
+			3) About page
+			4) Contact page
+			5) Footer
+			6) Media Queries - line 601
 *
 *
 */
-
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
@@ -109,11 +95,9 @@ body {
 }
 
 #circles-container {
+	width: 95%;
 	height: 20rem;
-	width: 70%;
 	margin: 0 auto;
-	padding-left: 2rem;
-	padding-right: 2rem;
 	text-align: justify;
 	-ms-text-justify: distribute-all-lines;
 	text-justify: distribute-all-lines;
@@ -173,7 +157,7 @@ body {
 }
 
 .bags-container {
-	width: 1010px;
+	width: 100%;
 	height: 19.5rem;
 	margin: 0 auto 7rem auto;
 	text-align: center;
@@ -198,8 +182,8 @@ body {
 	font-size: 1rem;
 }
 
-.buddybaggy {
-	height: 11rem;
+.buddybaggypic {
+	height: 80%;
 }
 
 .bag1 a {
@@ -267,6 +251,7 @@ body {
 
 #wesley-container {
 	width: 36%;
+	float: left;
 	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	color: #363636;
 }
@@ -291,6 +276,7 @@ body {
 
 #ampersand {
 	width: 53px;
+	float: left;
 	padding-top: 9rem;
 	padding-left: 4.5rem;
 	font-size: 75px;
@@ -299,6 +285,7 @@ body {
 
 #buddy-container {
 	width: 36%;
+	float: right;
 	margin: 0 auto;
 	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	color: #363636;
@@ -311,105 +298,6 @@ body {
 .about-descrip {
 	padding-left: 1rem;
 }	
-
-
-/* ===========================================================================================
-	Contact
-   =========================================================================================== */
-#contact {
-	width: 85%;
-	margin: 0 auto;
-	padding-top: 3rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
-	font-size: 1.25rem;
-	line-height: 2;
-	text-align: center;
-	-ms-text-justify: distribute-all-lines;
-	text-justify: distribute-all-lines;
-}
-
-form {
-	margin: 0 auto 3rem auto;
-	padding: 0;
-	width: 400px;
-}
-
-h1 {
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
-	font-size: 2rem;
-	font-weight: 300;
-	text-decoration: none;
-	line-height: 2;
-	text-align: center;
-}
-
-p {
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
-	font-size: 1.2rem;
-	font-weight: 300;
-	line-height: 2;
-	text-align: center;
-}
-
-label {
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
-	text-align: right;
-	font-size: 1.1rem;
-	font-weight: 400;	
-}
-
-input, textarea {
-	padding: 8px;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
-	font-size: 1rem;
-	font-weight: 400;
-	box-shadow: none;
-	border: 1px solid black;
-}
-
-textarea {
-	margin-top: 0.6rem;
-}
-
-::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-.error {
-	color: red;
-	font-size: 0.8rem;
-}
-
-#title {
-	height: 35px;
-	width: 300px;
-	border-radius: 5px;
-}
-
-#message {
-	height: 100px;
-	width: 300px;
-	border-radius: 5px;
-}
-
-input[type="submit"] {
-	width: 300px;
-  margin-left:6rem; 
-  margin-right:auto;
-  margin-top: 1rem;
-	border: 1px solid #00FA9A;
-  color: #fff;
-  background: #4DFCB8;
-  padding: 10px 20px;
-  border-radius: 3px;
-}
-
-input[type="submit"]:hover {
-   background: #00FA9A;
-}
 
 /* ===========================================================================================
 	Footer
@@ -432,80 +320,13 @@ footer {
 }
 
 
-
-/* ===========================================================================================
-	WP Classes
-   =========================================================================================== */
-.wp-caption {
-	background: #fff;
-  border: 1px solid #f0f0f0;
-  max-width: 96%; /* Image does not overflow the content area */
-  padding: 5px 3px 10px;
-  text-align: center;
-}
-
-.wp-caption-text {
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
-	font-size: 1.25rem;
-	font-weight: 300;
-	line-height: 2;
-	text-align: center;
-}
-
-.sticky {
-}
-
-.gallery-caption {
-}
-
-.gallery .gallery-caption { 	
-	font-size: 14px; 
-	line-height: 1.2em; 
-	margin: 10px 0 0; 
-}
-
-.bypostauthor{
-}
-
-.alignleft {
-	display: inline;
-	float: left;
-	margin-right: 30px;
-}
-.alignright {
-	display: inline;
-	float: right;
-	margin-left: 30px;
-}
-.aligncenter {
-	clear: both;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#respond form p.form-allowed-tags {
-	margin: 0;
-	font-size: 15px;
-	font-size: 1.5rem;
-	line-height: 1.5;
-	color: #5e5e5e;
-}
-
-.single #content .tags {
-	margin: 30px 0;
-}
-
-
-
 /* ===========================================================================================
 	Media Queries
    =========================================================================================== */
-/* iPhone 4 (320x480) ----------- */
+/* HOME PAGE */
 @media screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
 	#main-header {
 		height: 5.3rem;
-		width: 100%;
 		padding-top: 1.1rem;
 		font-size: 2rem;
 	}
@@ -515,10 +336,9 @@ footer {
 	}
 
 	nav {
-		width: 100%;
 		padding-top: 0.7rem;
 		font-size: 0.8rem;
-		font-weight: 100;
+		font-weight: 300;
 	}
 
 	#nav-link {
@@ -526,7 +346,6 @@ footer {
 	}
 
 	#teaser-container {
-		width: 100%;
 		padding-top: 2.8rem;
 		padding-bottom: 2.8rem;
 		font-size: 0.9rem;
@@ -534,16 +353,14 @@ footer {
 	}
 
 	#circles-container {
-		height: 63rem;
 		width: 53%;
-		text-align: justify;
+		height: 63rem;
 	}
 
 	#fabric-container,
 	#sustainable-container,
 	#reload-container,
 	#wash-container {
-		width: 11rem;
 		padding-bottom: 2rem;
 		font-size: 0.9rem;
 	}
@@ -553,7 +370,6 @@ footer {
 	.bags-img,
 	.machine-img {
 		width: 9rem;
-		padding-bottom: 0.5rem;
 	}
 
 	#quiet {
@@ -562,10 +378,403 @@ footer {
 		padding-bottom: 6rem;
 		font-size: 0.9rem;
 		font-weight: 400;
-		text-align: center;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+	#main-header {
+		height: 7rem;
+		padding-top: 1rem;
+		font-size: 2.5rem;
 	}
 
-	/* ABOUT PAGE - iPhone 4 (320x480) */
+	.pawprint {
+		height: 2.3rem;
+	}
+
+	nav {
+		padding-top: 0.7rem;
+		font-size: 0.8rem;
+		font-weight: 300;
+	}
+
+	#nav-link {
+		margin: 0 0.7rem;
+	}
+
+	#teaser-container {
+		padding-top: 2.8rem;
+		padding-bottom: 2.8rem;
+		font-size: 1.1rem;
+		line-height: 1.5;
+	}
+
+	#circles-container {
+		height: 67rem;
+		width: 170px;
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 11rem;
+		padding-bottom: 2rem;
+	}
+	
+	.fabric-img,
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		height: 9rem;
+	}
+
+	#quiet {
+		width: 90%;
+		padding: 2rem 1rem 6rem 1rem;
+		font-weight: 400;
+	}
+
+	.bags-container {
+		width: 60%;
+		height: 53rem;
+		margin: 0 auto 6rem auto;
+	}
+
+	.bag1,
+	.bag2,
+	.bag3,
+	.bag4 {
+		margin-top: 1rem;
+		height: 12rem;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 660px) {
+	#main-header {
+		height: 7.1rem;
+		padding-top: 1.2rem;
+		font-size: 2.6rem;
+	}
+
+	.pawprint {
+		height: 2.4rem;
+	}
+
+	nav {
+		padding-top: 1.2rem;
+		font-size: 1rem;
+		font-weight: 300;
+	}
+
+	#teaser-container {
+		padding-top: 3.2rem;
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 8rem;
+		padding-bottom: 2rem;
+		font-size: 0.85rem;
+	}
+	
+	.fabric-img,
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		height: 8rem;
+	}
+
+	.bags-container {
+		height: 24rem;
+		margin: 0 auto 6rem auto;
+	}
+
+	.bag1,
+	.bag2,
+	.bag3,
+	.bag4 {
+		width: 13rem;
+		height: 11rem;
+	}
+
+	.bag1,
+	.bag3 {
+		margin-right: 0.5rem;
+	}
+
+	.bag3,
+	.bag4 {
+		margin-top: 1rem;
+	}
+}
+
+@media screen and (min-width: 660px) and (max-width: 740px) {
+	#main-header {
+		height: 7.1rem;
+		padding-top: 1.2rem;
+		font-size: 2.8rem;
+	}
+
+	.pawprint {
+		height: 2.5rem;
+	}
+
+	nav {
+		padding-top: 1.2rem;
+		font-size: 1rem;
+		font-weight: 300;
+	}
+
+	#teaser-container {
+		padding-top: 3.2rem;
+	}
+
+	#circles-container {
+		height: 16rem;
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 9rem;
+		padding-bottom: 2rem;
+		font-size: 0.85rem;
+	}
+	
+	.fabric-img,
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		height: 9rem;
+	}
+
+	.bags-container {
+		width: 70%;
+		height: 24rem;
+		margin: 0 auto 6rem auto;
+	}
+
+	.bag1,
+	.bag2,
+	.bag3,
+	.bag4 {
+		width: 13rem;
+		height: 11rem;
+	}
+
+	.bag1,
+	.bag3 {
+		margin-right: 0.5rem;
+	}
+
+	.bag3,
+	.bag4 {
+		margin-top: 1rem;
+	}
+}
+
+@media screen and (min-width: 740px) and (max-width: 809px) {
+	#main-header {
+		height: 7.4rem;
+		padding-top: 1.3rem;
+		font-size: 2.8rem;
+	}
+
+	.pawprint {
+		height: 2.6rem;
+	}
+
+	nav {
+		padding-top: 1.2rem;
+		font-size: 1rem;
+	}
+
+	#circles-container {
+		height: 17rem;
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 9.8rem;
+		font-size: 0.85rem;
+	}
+	
+	.fabric-img,
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		height: 9.5rem;
+	}
+
+	.bags-container {
+		height: 11rem;
+		margin: 0 auto 6rem auto;
+	}
+
+	.bag1,
+	.bag2,
+	.bag3,
+	.bag4 {
+		width: 11rem;
+		height: 10rem;
+	}
+
+	.buddybaggypic {
+		height: 7.5rem;
+	}
+}
+
+@media screen and (min-width: 809px) and (max-width: 886px) {
+	#main-header {
+		height: 7.4rem;
+		padding-top: 1.3rem;
+		font-size: 2.8rem;
+	}
+
+	.pawprint {
+		height: 2.6rem;
+	}
+
+	nav {
+		padding-top: 1.2rem;
+		font-size: 1rem;
+	}
+
+	#circles-container {
+		height: 18rem;
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 11rem;
+		font-size: 0.9rem;
+	}
+	
+	.fabric-img, 
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		height: 10rem;
+	}
+
+	.bags-container {
+		height: 12rem;
+		margin: 0 auto 6rem auto;
+	}
+
+	.bag1,
+	.bag2,
+	.bag3,
+	.bag4 {
+		width: 12rem;
+		height: 10.5rem;
+	}
+
+	.buddybaggypic {
+		height: 8.4rem;
+	}
+}
+
+@media screen and (min-width: 886px) and (max-width: 948px) {
+	#main-header {
+		height: 7.4rem;
+		padding-top: 1.3rem;
+		font-size: 2.8rem;
+	}
+
+	.pawprint {
+		height: 2.6rem;
+	}
+
+	nav {
+		padding-top: 1.2rem;
+		font-size: 1rem;
+	}
+
+	#circles-container {
+		height: 18rem;
+	}
+
+	#fabric-container,
+	#sustainable-container,
+	#reload-container,
+	#wash-container {
+		width: 11rem;
+		font-size: 0.9rem;
+	}
+	
+	.fabric-img,
+	.bamboo-img,
+	.bags-img,
+	.machine-img {
+		height: 10rem;
+	}
+
+	.bags-container {
+		height: 12rem;
+		margin: 0 auto 6rem auto;
+	}
+
+	.bag1,
+	.bag2,
+	.bag3,
+	.bag4 {
+		width: 13.5rem;
+		height: 11rem;
+	}
+
+	.buddybaggypic {
+		height: 9rem;
+	}
+}
+
+@media screen and (min-width: 948px) and (max-width: 1023px) {
+	.bags-container {
+		height: 12.5rem;
+	}
+
+	.bag1,
+	.bag2,
+	.bag3,
+	.bag4 {
+		width: 14rem;
+		height: 11rem;
+	}
+
+	.buddybaggypic {
+		height: 9rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	#circles-container {
+		width: 940px;
+	}
+}
+
+@media screen and (min-width: 1181px) {
+	.bag1,
+	.bag2,
+	.bag3,
+	.bag4 {
+		width: 16rem;
+		height: 14rem;
+	}
+}
+
+
+/*------------------------------------------------------------------------------- 
+----------------------------ABOUT PAGE ------------------------------------------
+---------------------------------------------------------------------------------*/
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
 	#about-container {
 		width: 55%;
 		margin: 0px auto 4rem auto;
@@ -607,148 +816,9 @@ footer {
 		margin: 0px auto;
 		text-align: center;
 	}
-
-	/* Contact - iPhone 4 (320x480) ----------------- */
-	#contact {
-		text-align: center;
-		-ms-text-justify: distribute-all-lines;
-		text-justify:distribute-all-lines;
-	}
-
-	#contact-content {
-		width: 80%; /* moves contact content */
-		padding-bottom: 0;
-	}
-
-	h1 {
-		padding-bottom: -1rem;
-		font-weight: 400;
-	}
-
-	p {
-		font-size: 1rem;
-		font-weight: 400;
-		line-height: 1.4;
-	}
-
-	form {
-		margin-left: -2rem; /* moves form left/right */
-		width: 300px;
-	}
-
-	label {
-		font-size: 1rem;
-	}
-
-	#name {
-		width: 200px;
-	}
-
-	#email {
-		width: 200px;
-	}
-
-	#subject {
-		width: 200px;
-	}
-
-	#message {
-		width: 200px;
-	}
-
-	input[type="submit"] {
-		width: 200px;
-	  margin-left: 5.4rem;
-	}
 }
 
-/* Smartphones custom --------------------------------------------- */
 @media screen and (min-width: 300px) and (max-width: 477px) {
-	#main-header {
-		height: 5.3rem;
-		width: 100%;
-		padding-top: 1.1rem;
-		font-size: 2rem;
-	}
-
-	.pawprint {
-		height: 1.7rem;
-	}
-
-	nav {
-		padding-top: 0.7rem;
-		font-size: 0.8rem;
-		font-weight: 100;
-	}
-
-	#nav-link {
-		margin: 0 0.7rem;
-	}
-
-	#teaser-container {
-		width: 100%;
-		padding-top: 2.8rem;
-		padding-bottom: 2.8rem;
-		font-size: 1.1rem;
-		line-height: 1.5;
-	}
-
-	#circles-container {
-		height: 67rem;
-		width: 170px;
-		text-align: justify;
-	}
-
-	#fabric-container,
-	#sustainable-container,
-	#reload-container,
-	#wash-container {
-		width: 11rem;
-		padding-bottom: 2rem;
-		font-size: 1rem;
-	}
-	
-	.fabric-img,
-	.bamboo-img,
-	.bags-img,
-	.machine-img {
-		height: 9rem;
-		padding-bottom: 0.5rem;
-	}
-
-	#quiet {
-		width: 90%;
-		padding: 2rem 1rem 6rem 1rem;
-		font-size: 1rem;
-		font-weight: 400;
-		text-align: center;
-	}
-
-	.bags-container {
-		width: 90%;
-		height: 58rem;
-		margin: 0 auto 5rem auto;
-		padding-bottom: 1rem;
-	}
-
-	.bag1,
-	.bag2,
-	.bag3,
-	.bag4 {
-		width: 15rem;
-		height: 13rem;
-		margin-top: 1rem;
-	}
-
-	.buddybaggypic {
-		height: 11rem;
-	}
-
-	#shop-text {
-		padding-top: 2rem;
-	}
-
-/* ABOUT PAGE (min-width: 300px) and (max-width: 469px) */
 	#about-container {
 		width: 65%;
 		height: 97rem;
@@ -792,149 +862,9 @@ footer {
 		margin: 0px auto;
 		text-align: center;
 	}
-
-/* Contact (min-width: 300px) and (max-width: 469px) ------------- */
-	#contact {
-		width: 80%; /* moves contact content div */
-		padding-top: 0.5rem;
-
-	}
-
-	h1 {
-		padding-bottom: -16px;
-		font-weight: 400;
-	}
-
-	p {
-		font-size: 1rem;
-		font-weight: 400;
-		line-height: 1.4;
-	}
-
-	form {
-		margin-left: -2rem; /* moves form left/right */
-		width: 300px;
-	}
-
-	label {
-		font-size: 1rem;
-		font-size: 0.9rem;
-	}
-
-	#name {
-		width: 200px;
-	}
-
-	#email {
-		width: 200px;
-	}
-
-	#subject {
-		width: 200px;
-	}
-
-	#message {
-		width: 200px;
-	}
-
-	input[type="submit"] {
-		width: 200px;
-	  margin-left: 5.4rem; 
-	}
 }
 
-
-/* Smartphones (iPhone portrait) ------------------------------------------- */
-@media screen and (min-width: 477px) and (max-width: 509px) {
-	#main-header {
-		height: 5.3rem;
-		width: 100%;
-		padding-top: 1.1rem;
-		font-size: 2rem;
-	}
-
-	.pawprint {
-		height: 1.7rem;
-	}
-
-	nav {
-		padding-top: 0.7rem;
-		font-size: 0.8rem;
-		font-weight: 100;
-	}
-
-	#nav-link {
-		margin: 0 0.7rem;
-	}
-
-	#teaser-container {
-		width: 100%;
-		padding-top: 2.8rem;
-		padding-bottom: 2.8rem;
-		font-size: 1.1rem;
-		line-height: 1.5;
-	}
-
-	#circles-container {
-		height: 67rem;
-		width: 170px;
-		text-align: justify;
-	}
-
-	#fabric-container,
-	#sustainable-container,
-	#reload-container,
-	#wash-container {
-		width: 11rem;
-		padding-bottom: 2rem;
-		font-size: 1rem;
-	}
-	
-	.fabric-img,
-	.bamboo-img,
-	.bags-img,
-	.machine-img {
-		height: 9rem;
-		padding-bottom: 0.5rem;
-	}
-
-	#quiet {
-		width: 90%;
-		padding: 2rem 1rem 6rem 1rem;
-		font-size: 1rem;
-		font-weight: 400;
-		text-align: center;
-	}
-
-	.bags-container {
-		width: 90%;
-		height: 24rem;
-		margin: 0 auto 5rem auto;
-		padding-bottom: 1rem;
-	}
-
-	.bag1,
-	.bag2,
-	.bag3,
-	.bag4 {
-		width: 13rem;
-		height: 11rem;
-	}
-	.bag1,
-	.bag3 {
-		margin-right: 0.5rem;
-	}
-
-	.bag3,
-	.bag4 {
-		margin-top: 1rem;
-	}
-
-	.buddybaggypic {
-		height: 9rem;
-	}
-
-/* ABOUT PAGE (min-width: 477px) and (max-width: 509px) */
+@media screen and (min-width: 477px) and (max-width: 600px) {
 	#about-container {
 		width: 55%;
 		height: 93rem;
@@ -977,319 +907,21 @@ footer {
 		margin: 0px auto;
 		text-align: center;
 	}
-
-/* Contact (min-width: 300px) and (max-width: 509px) ------------- */
-	#contact {
-		width: 80%; /* moves contact content div */
-	}
-
-	#contact-content {
-		padding-bottom: 0;
-	}
-
-	h1 {
-		padding-bottom: -16px;
-		font-weight: 400;
-	}
-
-	p {
-		font-size: 1rem;
-		font-weight: 400;
-		line-height: 1.4;
-	}
-
-	table {
-		line-height: 1.6;
-	}
-
-	td {
-		text-align: left;
-	}
-
-	#name {
-		width: 200px;
-	}
-
-	#email {
-		width: 200px;
-	}
-
-	#subject {
-		width: 200px;
-	}
-
-	#message {
-		width: 200px;
-	}
-
-	input[type="submit"] {
-		width: 200px;
-	  margin-left: 5.4rem; 
-	}
 }
 
-/* Smartphones (portrait and landscape) -------------------------------------- */
-@media screen and (min-width: 509px) and (max-width: 600px) {
-	#main-header {
-		height: 5.8rem;
-		width: 100%;
-		padding-top: 1.1rem;
-		font-size: 2.2rem;
-	}
-
-	.pawprint {
-		height: 2rem;
-	}
-
-	nav {
-		padding-top: 0.7rem;
-	}
-
-	#nav-link {
-		margin: 0 0.85rem;
-		font-size: 1rem;
-		font-weight: 100;
-	}
-
-	#teaser-container {
-		width: 100%;
-		padding-top: 2.8rem;
-		padding-bottom: 2.8rem;
-		font-size: 1.2rem;
-		line-height: 1.9;
-	}
-
-	#circles-container {
-		height: 72rem;
-		width: 170px;
-		text-align: justify;
-	}
-
-	#fabric-container,
-	#sustainable-container,
-	#reload-container,
-	#wash-container {
-		width: 11rem;
-		padding-bottom: 2rem;
-		font-size: 0.95rem;
-	}
-	
-	.fabric-img,
-	.bamboo-img,
-	.bags-img,
-	.machine-img {
-		width: 11rem;
-		padding-bottom: 0.5rem;
-	}
-
-	.bags-container {
-		width: 90%;
-		height: 24rem;
-		margin: 0 auto 5rem auto;
-		padding-bottom: 1rem;
-	}
-
-	.bag1,
-	.bag2,
-	.bag3,
-	.bag4 {
-		width: 13rem;
-		height: 11rem;
-	}
-
-	.bag1,
-	.bag3 {
-		margin-right: 0.5rem;
-	}
-
-	.bag3,
-	.bag4 {
-		margin-top: 1rem;
-	}
-
-	.buddybaggypic {
-		height: 9rem;
-	}
-
-	/* ABOUT PAGE (min-width: 509px) and (max-width: 600px) */
-	#about-container {
-		width: 93%;
-		margin: 0px auto 5rem auto;
-		z-index: 1;
-		height: 48rem;
-	}
-
-	#wesley-container {
-		width: 40%;
-		float: left;
-		padding-left: 1.5rem;
-	}
-
-	#ampersand {
-		width: 2rem;
-		float: left;
-		padding-left: 0.5rem;
-		font-size: 60px;
-	}
-
-	#buddy-container {
-		width: 41%;
-		margin: 0px auto;
-		padding-right: 1rem;
-		float: right;
-	}
-
-	.wesley-img, .buddy-img {
-		width: 200px;
-	}
-
-	.wesley-img {
-		padding-top: 3px;
-	}
-
-	.about-name {
-		margin: 0px auto;
-		font-size: 50px;
-	}
-
-
-	/*  Contact (min-width: 509px) and (max-width: 600px) */
-	#contact-content {
-		padding-bottom: 1rem;
-	}
-
-	h1 {
-		padding-bottom: -16px;
-		font-weight: 400;
-	}
-
-	p {
-		font-size: 1rem;
-		font-weight: 400;
-		line-height: 1.4;
-	}
-
-	label {
-		font-size: 1rem;
-	}
-
-	#name {
-		width: 270px;
-	}
-
-	#email {
-		width: 270px;
-	}
-
-	#subject {
-		width: 270px;
-	}
-
-	#message {
-		width: 270px;
-	}
-
-	input[type="submit"] {
-		width: 270px;
-	  margin-left: 3.5rem; 
-	  margin-right: auto;
-	}
-}
-
-/* Smartphones (portrait) custom ------------------------------------------------ */
 @media screen and (min-width: 600px) and (max-width: 660px) {
-	#main-header {
-		height: 7.1rem;
-		width: 100%;
-		padding-top: 1.2rem;
-		font-size: 2.6rem;
-	}
-
-	.pawprint {
-		height: 2rem;
-	}
-
-	nav {
-		padding-top: 1.2rem;
-		font-size: 1rem;
-		font-weight: 100;
-	}
-
-	#teaser-container {
-		width: 100%;
-		padding-top: 3.2rem;
-		font-size: 1.2rem;
-		line-height: 1.9;
-	}
-
-	#circles-container {
-		height: 18rem;
-		width: 90%;
-		text-align: justify;
-	}
-
-	#fabric-container,
-	#sustainable-container,
-	#reload-container,
-	#wash-container {
-		width: 8rem;
-		padding-bottom: 2rem;
-		font-size: 0.85rem;
-	}
-	
-	.fabric-img,
-	.bamboo-img,
-	.bags-img,
-	.machine-img {
-		height: 8rem;
-		padding-bottom: 0.5rem;
-	}
-
-	.bags-container {
-		width: 90%;
-		height: 24rem;
-		margin: 0 auto 5rem auto;
-		padding-bottom: 1rem;
-	}
-
-	.bag1,
-	.bag2,
-	.bag3,
-	.bag4 {
-		width: 13rem;
-		height: 11rem;
-	}
-
-	.bag1,
-	.bag3 {
-		margin-right: 1rem;
-	}
-
-	.bag3,
-	.bag4 {
-		margin-top: 1rem;
-	}
-
-	.buddybaggypic {
-		height: 9rem;
-	}
-
-	/* ABOUT PAGE (min-width: 600px) and (max-width: 660px) */
 	#about-container {
 		width: 90%;
 		margin: 0 auto 5rem auto;
-		z-index: 1;
 		height: 50rem;
 	}
 
 	#wesley-container {
 		width: 40%;
-		float: left;
 	}
 
 	#ampersand {
 		width: 43px;
-		float: left;
 		padding-left: 1.7rem;
 		font-size: 65px;
 	}
@@ -1298,7 +930,6 @@ footer {
 		width: 40%;
 		margin: 0px auto;
 		padding-right: 1rem;
-		float: right;
 	}
 
 	.Wesley-img, .Buddy-img {
@@ -1310,118 +941,27 @@ footer {
 	}
 }
 
-/* Smartphones (landscape) custom -------------------------------------------- */
 @media screen and (min-width: 660px) and (max-width: 740px) {
-	#main-header {
-		height: 7.1rem;
-		width: 100%;
-		padding-top: 1.2rem;
-		font-size: 2.6rem;
-	}
-
-	.pawprint {
-		height: 2.5rem;
-	}
-
-	nav {
-		padding-top: 1.2rem;
-		font-size: 1rem;
-		font-weight: 100;
-	}
-
-	#teaser-container {
-		width: 100%;
-		padding-top: 3.2rem;
-		font-size: 1.2rem;
-		line-height: 1.9;
-	}
-
-	#circles-container {
-		height: 16rem;
-		width: 90%;
-		text-align: justify;
-		/* -ms-text-justify: distribute-all-lines;
-		text-justify:distribute-all-lines; */
-	}
-
-	#fabric-container,
-	#sustainable-container,
-	#reload-container,
-	#wash-container {
-		width: 9rem;
-		padding-bottom: 2rem;
-		font-size: 0.85rem;
-	}
-	
-	.fabric-img,
-	.bamboo-img,
-	.bags-img,
-	.machine-img {
-		height: 9rem;
-		padding-bottom: 0.5rem;
-	}
-
-	.bags-container {
-		width: 97%;
-		height: 10rem;
-		margin: 0 auto 5rem auto;
-		padding-bottom: 1rem;
-	}
-
-	.bags-container {
-		width: 70%;
-		height: 24rem;
-		margin: 0 auto 5rem auto;
-		padding-bottom: 1rem;
-	}
-
-	.bag1,
-	.bag2,
-	.bag3,
-	.bag4 {
-		width: 13rem;
-		height: 11rem;
-	}
-
-	.bag1,
-	.bag3 {
-		margin-right: 0.5rem;
-	}
-
-	.bag3,
-	.bag4 {
-		margin-top: 1rem;
-	}
-
-	.buddybaggypic {
-		height: 9rem;
-	}
-
-/* ABOUT PAGE (min-width: 660px) and (max-width: 740px) */
 	#about-container {
-		width: 83%;
+		width: 90%;
 		margin: 0px auto 3rem auto;
-		z-index: 1;
 		height: 53rem;
 	}
 
 	#wesley-container {
-		width: 35%;
-		float: left;
+		width: 40%;
 	}
 
 	#ampersand {
 		width: 43px;
-		float: left;
-		padding-left: 4rem;
+		padding-left: 1.4rem;
 		font-size: 65px;
 	}
 
 	#buddy-container {
-		width: 35%;
+		width: 40%;
 		margin: 0px auto;
 		padding-right: 1rem;
-		float: right;
 	}
 
 	.Wesley-img, .Buddy-img {
@@ -1433,437 +973,16 @@ footer {
 	}
 }
 
-/* Smartphones (landscape) custom ------------------------------------------ */
-@media screen and (min-width: 740px) and (max-width: 809px) {
-	#main-header {
-		height: 7.4rem;
-		width: 100%;
-		padding-top: 1.3rem;
-		font-size: 2.8rem;
-	}
-
-	.pawprint {
-		height: 2.6rem;
-	}
-
-	nav {
-		padding-top: 1.2rem;
-		font-size: 1rem;
-		font-weight: 100;
-	}
-
-	#teaser-container {
-		width: 100%;
-		padding-top: 4rem;
-		font-size: 1.2rem;
-		line-height: 1.9;
-	}
-
-	#circles-container {
-		height: 17rem;
-		width: 90%;
-		text-align: justify;
-		/* -ms-text-justify: distribute-all-lines;
-		text-justify:distribute-all-lines; */
-	}
-
-	#fabric-container,
-	#sustainable-container,
-	#reload-container,
-	#wash-container {
-		width: 9.8rem;
-		padding-bottom: 3rem;
-		font-size: 0.85rem;
-	}
-	
-	.fabric-img,
-	.bamboo-img,
-	.bags-img,
-	.machine-img {
-		height: 9.5rem;
-		padding-bottom: 0.5rem;
-	}
-
-	.bags-container {
-		width: 97%;
-		height: 11rem;
-		margin: 0 auto 5rem auto;
-		padding-bottom: 1rem;
-	}
-
-	.bag1,
-	.bag2,
-	.bag3,
-	.bag4 {
-		width: 11rem;
-		height: 10rem;
-	}
-
-	.buddybaggypic {
-		height: 8rem;
-	}
-
-/* ABOUT PAGE (min-width: 740px) and (max-width: 809px) */
+@media screen and (min-width: 740px) and (max-width: 886px) {
 	#about-container {
 		width: 80%;
 		margin: 0px auto;
-		z-index: 1;
 		height: 57rem;
 	}
-
-	#wesley-container {
-		float: left;
-	}
-
-	#ampersand {
-		float: left;
-	}
-
-	#buddy-container {
-		float: right;
-	}
 }
 
-
-/* Custom (landscape) ------------------------------------------------------ */
-@media screen and (min-width: 809px) and (max-width: 886px) {
-	#main-header {
-		height: 7.4rem;
-		width: 100%;
-		padding-top: 1.3rem;
-		font-size: 2.8rem;
-	}
-
-	.pawprint {
-		height: 2.6rem;
-	}
-
-	nav {
-		padding-top: 1.2rem;
-		font-size: 1rem;
-		font-weight: 100;
-	}
-
-	#teaser-container {
-		width: 100%;
-		padding-top: 4rem;
-		font-size: 1.2rem;
-		line-height: 1.9;
-	}
-
-	#circles-container {
-		height: 18rem;
-		width: 90%;
-		text-align: justify;
-	}
-
-	#fabric-container,
-	#sustainable-container,
-	#reload-container,
-	#wash-container {
-		width: 11rem;
-		zoom: 1;
-		padding-bottom: 3rem;
-		font-size: 0.9rem;
-	}
-	
-	.fabric-img, 
-	.bamboo-img,
-	.bags-img,
-	.machine-img {
-		height: 10rem;
-		padding-bottom: 0.5rem;
-	}
-
-	.bags-container {
-		width: 809px;
-		height: 12rem;
-		margin: 0 auto 5rem auto;
-		padding-bottom: 1rem;
-	}
-
-	.bag1,
-	.bag2,
-	.bag3,
-	.bag4 {
-		width: 12rem;
-		height: 10.5rem;
-	}
-
-	.buddybaggypic {
-		height: 8.4rem;
-	}
-
-	/* ABOUT PAGE (min-width: 809px) and (max-width: 886px) */
+@media screen and (min-width: 886px) {
 	#about-container {
-		width: 80%;
-		z-index: 1;
 		height: 50rem;
-	}
-
-	#wesley-container {
-		float: left;
-	}
-
-	#ampersand {
-		float: left;
-	}
-
-	#buddy-container {
-		float: right;
-	}
-
-	.about-title {
-		padding-left: 1rem;
-	}
-
-	.about-descrip {
-		padding-left: 1rem;
-	}
-}
-
-/* Custom (landscape) ----------------------------------------------------- */
-@media screen and (min-width: 886px) and (max-width: 948px) {
-	#main-header {
-		height: 7.4rem;
-		width: 100%;
-		padding-top: 1.3rem;
-		font-size: 2.8rem;
-	}
-
-	.pawprint {
-		height: 2.6rem;
-	}
-
-	nav {
-		padding-top: 1.2rem;
-		font-size: 1rem;
-		font-weight: 100;
-	}
-
-	#teaser-container {
-		width: 100%;
-		padding-top: 4rem;
-		font-size: 1.2rem;
-		line-height: 1.9;
-	}
-
-	#circles-container {
-		height: 18rem;
-		width: 95%;
-		text-align: justify;
-	}
-
-	#fabric-container,
-	#sustainable-container,
-	#reload-container,
-	#wash-container {
-		width: 11rem;
-		zoom: 1;
-		padding-bottom: 3rem;
-		font-size: 0.9rem;
-	}
-	
-	.fabric-img,
-	.bamboo-img,
-	.bags-img,
-	.machine-img {
-		height: 10rem;
-		padding-bottom: 0.5rem;
-	}
-
-	.bags-container {
-		width: 886px;
-		height: 12rem;
-		margin: 0 auto 5rem auto;
-		padding-bottom: 1rem;
-	}
-
-	.bag1,
-	.bag2,
-	.bag3,
-	.bag4 {
-		width: 13.5rem;
-		height: 12rem;
-	}
-
-	.buddybaggypic {
-		height: 10rem;
-	}
-
-	/* ABOUT PAGE (min-width: 886px) and (max-width: 948px) */
-	#about-container {
-		z-index: 1;
-		height: 50rem;
-	}
-
-	#wesley-container {
-		float: left;
-	}
-
-	.wesley-img {
-		width: 246px;
-	}
-
-	#ampersand {
-		float: left;
-	}
-
-	#buddy-container {
-		float: right;
-	}
-}
-
-/* iPads (portrait and landscape) ---------------------------------------------- */
-@media screen and (min-width: 948px) and (max-width: 1023px) {
-	#circles-container {
-		height: 20rem;
-		width: 90%;
-		margin: 0 auto;
-		text-align: justify;
-	}
-
-	.bags-container {
-		width: 948px;
-		height: 12.5rem;
-		margin: 0 auto 5rem auto;
-		padding-bottom: 1rem;
-	}
-
-	.bag1,
-	.bag2,
-	.bag3,
-	.bag4 {
-		width: 14rem;
-		height: 12rem;
-	}
-
-	.buddybaggypic {
-		height: 10rem;
-	}
-
-	/* ABOUT PAGE (min-width: 948px) and (max-width: 1023px) */
-	#about-container {
-		z-index: 1;
-		height: 50rem;
-	}
-
-	#wesley-container {
-		float: left;
-	}
-
-	.wesley-img {
-		width: 246px;
-	}
-
-	#ampersand {
-		float: left;
-	}
-
-	#buddy-container {
-		float: right;
-	}
-}
-
-/* Desktops and laptops ------------------------------------------ */
-@media screen and (min-width: 1024px) {
-	#circles-container {
-		height: 20rem;
-		width: 940px;
-		margin: 0 auto;
-		text-align: justify;
-	}
-
-	.bags-container {
-		width: 1010px;
-		height: 12.5rem;
-		margin: 0 auto 5rem auto;
-		padding-bottom: 1rem;
-	}
-
-	.bag1,
-	.bag2,
-	.bag3,
-	.bag4 {
-		width: 15rem;
-		height: 13rem;
-	}
-
-	.buddybaggypic {
-		height: 11rem;
-	}
-
-	/* ABOUT PAGE (min-width: 1024px) */
-	#about-container {
-		z-index: 1;
-		height: 50rem;
-	}
-
-	#wesley-container {
-		float: left;
-	}
-
-	.wesley-img {
-		width: 246px;
-	}
-
-	#ampersand {
-		float: left;
-	}
-
-	#buddy-container {
-		float: right;
-	}
-}
-
-/* Large screens --------------------------------------------------------- */
-@media screen and (min-width: 1181px) {
-	#circles-container {
-		height: 20rem;
-		width: 970px;
-		margin: 0 auto;
-		text-align: justify;
-	}
-
-	.bags-container {
-		width: 1060px;
-		height: 12.5rem;
-		margin: 0 auto 5rem auto;
-		padding-bottom: 1rem;
-	}
-
-	.bag1,
-	.bag2,
-	.bag3,
-	.bag4 {
-		width: 16rem;
-		height: 14rem;
-	}
-
-	.buddybaggypic {
-		height: 11rem;
-		padding-top: 0.4rem;
-	}
-
-	/* ABOUT PAGE (min-width: 1181px) */
-	#about-container {
-		z-index: 1;
-		height: 50rem;
-	}
-
-	#wesley-container {
-		float: left;
-	}
-
-	.wesley-img {
-		width: 246px;
-	}
-
-	#ampersand {
-		float: left;
-	}
-
-	#buddy-container {
-		float: right;
 	}
 }

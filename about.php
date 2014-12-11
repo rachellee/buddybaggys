@@ -15,16 +15,14 @@ include('inc/header.php'); ?>
 			Designer & Seamstress
 		</div>
 		<div class="about-descrip">
-			Full-time marketer and dog lover.<BR /><BR />
-			Part-time innovator and perpetual DIY-er.<BR /><BR />
+			Full-time marketer.
+			Part-time innovator.<BR /><BR />
 			Like most inventions, Doo Dog was born out of necessity.
-			One day, back in 2012, I was on a walk with Buddy when I realized we were trailing about
-			6 feet of poop bags out of the broken plastic dispenser.
-			Since then, I've been a mission to design the sturdiest dog bag dispenser that is also environmentally friendly.
-			First, I experiemented with cotton and hemp, but quickly learned that the fabric would stretch and was not sturdy.
-			I needed something with webbing.
-			Then it became of question of how thick of webbing to use and how big to make the bags.
-			I personally tested every single bag and after 100s of iterations (and a lot of buttons!) Doo Dog was born!
+			Back in 2012, I was on a walk with Buddy one day when I realized we were trailing
+			6 feet of poop bags out of my broken plastic dispenser.
+			Since then, I've been on a mission to design the sturdiest dog bag dispenser that is also environmentally friendly.<BR><BR>
+			I've experimented with cotton, hemp, seatbelts, and have bought poo bags of all sizes.<BR>
+			After 100s of iterations (and a lot of buttons!) Doo Dog was born!<BR><BR>
 			I hope you love them as much as I do!
 		</div>
 	</div>
