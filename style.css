@@ -236,6 +236,13 @@ body {
 	text-align: center;
 }
 
+#shop-text a {
+	color: #a4c8ff;
+}
+
+#shop-text a:hover {
+	color: #0dcd43;
+}
 
 /* ===========================================================================================
 	About

@@ -4,8 +4,8 @@
 include('inc/header.php'); ?>
 
 
-<div id="shop-text" class="etsy_store">
-	Visit our full Etsy shop <a href="https://www.etsy.com/shop/BuddysPets?ref=em">here</a>
+<div id="shop-text">
+	Visit our full Etsy shop <a href="https://www.etsy.com/shop/BuddysPets?ref=em" class="etsy_link">here</a>
 </div>
 
 <center>
