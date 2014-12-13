@@ -387,7 +387,7 @@ footer {
 		font-weight: 400;
 	}
 }
-
+/* HOME PAGE */
 @media screen and (min-width: 300px) and (max-width: 600px) {
 	#main-header {
 		height: 7rem;
@@ -443,7 +443,7 @@ footer {
 	}
 
 	.bags-container {
-		width: 60%;
+		width: 74%;
 		height: 53rem;
 		margin: 0 auto 6rem auto;
 	}
@@ -456,7 +456,7 @@ footer {
 		height: 12rem;
 	}
 }
-
+/* HOME PAGE */
 @media screen and (min-width: 600px) and (max-width: 660px) {
 	#main-header {
 		height: 7.1rem;
@@ -517,7 +517,7 @@ footer {
 		margin-top: 1rem;
 	}
 }
-
+/* HOME PAGE */
 @media screen and (min-width: 660px) and (max-width: 740px) {
 	#main-header {
 		height: 7.1rem;
@@ -583,7 +583,7 @@ footer {
 		margin-top: 1rem;
 	}
 }
-
+/* HOME PAGE */
 @media screen and (min-width: 740px) and (max-width: 809px) {
 	#main-header {
 		height: 7.4rem;
@@ -636,7 +636,7 @@ footer {
 		height: 7.5rem;
 	}
 }
-
+/* HOME PAGE */
 @media screen and (min-width: 809px) and (max-width: 886px) {
 	#main-header {
 		height: 7.4rem;
@@ -689,7 +689,7 @@ footer {
 		height: 8.4rem;
 	}
 }
-
+/* HOME PAGE */
 @media screen and (min-width: 886px) and (max-width: 948px) {
 	#main-header {
 		height: 7.4rem;
@@ -742,7 +742,7 @@ footer {
 		height: 9rem;
 	}
 }
-
+/* HOME PAGE */
 @media screen and (min-width: 948px) and (max-width: 1023px) {
 	.bags-container {
 		height: 12.5rem;
@@ -760,13 +760,13 @@ footer {
 		height: 9rem;
 	}
 }
-
+/* HOME PAGE */
 @media screen and (min-width: 1024px) {
 	#circles-container {
 		width: 940px;
 	}
 }
-
+/* HOME PAGE */
 @media screen and (min-width: 1181px) {
 	.bag1,
 	.bag2,
@@ -824,11 +824,11 @@ footer {
 		text-align: center;
 	}
 }
-
+/* ABOUT PAGE */
 @media screen and (min-width: 300px) and (max-width: 477px) {
 	#about-container {
 		width: 65%;
-		height: 97rem;
+		height: 105rem;
 		margin: 0 auto 5rem auto;
 		padding-top: 2rem;
 	}
@@ -984,12 +984,12 @@ footer {
 	#about-container {
 		width: 80%;
 		margin: 0px auto;
-		height: 57rem;
+		height: 63rem;
 	}
 }
 
 @media screen and (min-width: 886px) {
 	#about-container {
-		height: 50rem;
+		height: 58rem;
 	}
 }
