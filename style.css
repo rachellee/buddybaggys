@@ -825,7 +825,7 @@ footer {
 	}
 }
 /* ABOUT PAGE */
-@media screen and (min-width: 300px) and (max-width: 477px) {
+@media screen and (min-width: 300px) {
 	#about-container {
 		width: 65%;
 		height: 105rem;
@@ -868,6 +868,13 @@ footer {
 	#buddy-pic {
 		margin: 0px auto;
 		text-align: center;
+	}
+}
+
+@media screen and (min-width: 428px) and (max-width: 474px) {
+	#about-container {
+		width: 65%;
+		height: 93rem;
 	}
 }
 
@@ -920,7 +927,7 @@ footer {
 	#about-container {
 		width: 90%;
 		margin: 0 auto 5rem auto;
-		height: 50rem;
+		height: 56rem;
 	}
 
 	#wesley-container {
@@ -952,7 +959,7 @@ footer {
 	#about-container {
 		width: 90%;
 		margin: 0px auto 3rem auto;
-		height: 53rem;
+		height: 56rem;
 	}
 
 	#wesley-container {
