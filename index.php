@@ -44,21 +44,21 @@ include('inc/header.php'); ?>
 	<div class="bags-container">
 
 		<div class="bag1 border-fade">
-			<a href="shop.php"><img src="images/gray_blue.jpg" class="buddybaggypic" alt="1. Grayish Blue Doo Dog"></a><BR />
+			<a href="shop.php"><img src="images/gray_blue.jpg" class="buddybaggypic" alt="1. Grayish Blue Doo Dog Bag"></a><BR />
 				<a href="shop.php">Greyhound</a>
 		</div>
 		<div class="bag2 border-fade">
-			<a href="shop.php"><img src="images/teal.jpg" class="buddybaggypic" alt="2. Teal Doo Dog"><BR />
+			<a href="shop.php"><img src="images/teal.jpg" class="buddybaggypic" alt="2. Teal Doo Dog Bag"><BR />
 				Pacific</a>
 		</div>
 
 		<div class="bag3 border-fade">
-			<a href="shop.php"><img src="images/red.jpg" class="buddybaggypic" alt="3. Red Doo Dog"><BR />
+			<a href="shop.php"><img src="images/red.jpg" class="buddybaggypic" alt="3. Red Doo Dog Bag"><BR />
 				Red Rover</a>
 		</div>
 
 		<div class="bag4 border-fade">
-			<a href="shop.php"><img src="images/royal_blue.jpg" class="buddybaggypic" alt="4. Royal Blue Doo Dog"><BR />
+			<a href="shop.php"><img src="images/purple.jpg" class="buddybaggypic" alt="4. Purple Doo Dog Bag"><BR />
 				Purpillon</a>
 		</div>	
 		<span class="stretch"></span>
