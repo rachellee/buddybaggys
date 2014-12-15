@@ -49,7 +49,7 @@ include('inc/header.php'); ?>
 		</div>
 		<div class="bag2 border-fade">
 			<a href="shop.php"><img src="images/teal.jpg" class="buddybaggypic" alt="2. Teal Doo Dog"><BR />
-				Tealbetan Terrier</a>
+				Pacific</a>
 		</div>
 
 		<div class="bag3 border-fade">
