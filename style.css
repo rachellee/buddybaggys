@@ -825,7 +825,7 @@ footer {
 	}
 }
 /* ABOUT PAGE */
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 300px) and (max-width: 474px) {
 	#about-container {
 		width: 65%;
 		height: 105rem;
