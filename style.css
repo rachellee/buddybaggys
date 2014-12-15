@@ -327,7 +327,20 @@ footer {
 	#main-header {
 		height: 5.3rem;
 	}
+#main-header {
+	background-color: #a4c8ff;
+	height: 8rem;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
 
+.logo {
+	height: 5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
 	nav {
 		font-size: 0.8rem;
 		font-weight: 300;
@@ -378,7 +391,20 @@ footer {
 		height: 7rem;
 		padding-top: 1rem;
 	}
+#main-header {
+	background-color: #a4c8ff;
+	height: 8rem;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
 
+.logo {
+	height: 5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
 	nav {
 		font-size: 0.8rem;
 		font-weight: 300;
@@ -442,9 +468,20 @@ footer {
 		padding-top: 1.2rem;
 	}
 
-	.pawprint {
-		height: 2.4rem;
-	}
+#main-header {
+	background-color: #a4c8ff;
+	height: 8rem;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.logo {
+	height: 5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
 
 	nav {
 		padding-top: 1.2rem;
@@ -502,9 +539,20 @@ footer {
 		padding-top: 1.2rem;
 	}
 
-	.pawprint {
-		height: 2.5rem;
-	}
+#main-header {
+	background-color: #a4c8ff;
+	height: 8rem;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.logo {
+	height: 5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
 
 	nav {
 		padding-top: 1.2rem;
@@ -567,9 +615,20 @@ footer {
 		padding-top: 1.3rem;
 	}
 
-	.pawprint {
-		height: 2.6rem;
-	}
+#main-header {
+	background-color: #a4c8ff;
+	height: 8rem;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.logo {
+	height: 5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
 
 	nav {
 		padding-top: 1.2rem;
@@ -619,9 +678,20 @@ footer {
 		padding-top: 1.3rem;
 	}
 
-	.pawprint {
-		height: 2.6rem;
-	}
+#main-header {
+	background-color: #a4c8ff;
+	height: 8rem;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.logo {
+	height: 5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
 
 	nav {
 		padding-top: 1.2rem;
@@ -671,9 +741,20 @@ footer {
 		padding-top: 1.3rem;
 	}
 
-	.pawprint {
-		height: 2.6rem;
-	}
+#main-header {
+	background-color: #a4c8ff;
+	height: 8rem;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.logo {
+	height: 5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
 
 	nav {
 		padding-top: 1.2rem;
