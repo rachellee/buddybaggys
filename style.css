@@ -325,22 +325,15 @@ footer {
 /* HOME PAGE */
 @media screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
 	#main-header {
-		height: 5.3rem;
+		height: 7rem;
+		padding-top: 1rem;
 	}
-#main-header {
-	background-color: #a4c8ff;
-	height: 8rem;
-	width: 100%;
-	padding-top: 2rem;
-	padding-bottom: 3rem;
-	text-align: center;
-}
 
-.logo {
-	height: 5rem;
-	padding-top: 0.5rem;
-	padding-bottom: 1rem;
-}
+	.logo {
+		height: 4.5rem;
+		padding-top: 1rem;
+	}
+
 	nav {
 		font-size: 0.8rem;
 		font-weight: 300;
@@ -391,20 +384,12 @@ footer {
 		height: 7rem;
 		padding-top: 1rem;
 	}
-#main-header {
-	background-color: #a4c8ff;
-	height: 8rem;
-	width: 100%;
-	padding-top: 2rem;
-	padding-bottom: 3rem;
-	text-align: center;
-}
 
-.logo {
-	height: 5rem;
-	padding-top: 0.5rem;
-	padding-bottom: 1rem;
-}
+	.logo {
+		height: 4.5rem;
+		padding-top: 1rem;
+	}
+
 	nav {
 		font-size: 0.8rem;
 		font-weight: 300;
@@ -463,26 +448,6 @@ footer {
 }
 /* HOME PAGE */
 @media screen and (min-width: 600px) and (max-width: 660px) {
-	#main-header {
-		height: 7.1rem;
-		padding-top: 1.2rem;
-	}
-
-#main-header {
-	background-color: #a4c8ff;
-	height: 8rem;
-	width: 100%;
-	padding-top: 2rem;
-	padding-bottom: 3rem;
-	text-align: center;
-}
-
-.logo {
-	height: 5rem;
-	padding-top: 0.5rem;
-	padding-bottom: 1rem;
-}
-
 	nav {
 		padding-top: 1.2rem;
 		font-size: 1rem;
@@ -534,26 +499,6 @@ footer {
 }
 /* HOME PAGE */
 @media screen and (min-width: 660px) and (max-width: 740px) {
-	#main-header {
-		height: 7.1rem;
-		padding-top: 1.2rem;
-	}
-
-#main-header {
-	background-color: #a4c8ff;
-	height: 8rem;
-	width: 100%;
-	padding-top: 2rem;
-	padding-bottom: 3rem;
-	text-align: center;
-}
-
-.logo {
-	height: 5rem;
-	padding-top: 0.5rem;
-	padding-bottom: 1rem;
-}
-
 	nav {
 		padding-top: 1.2rem;
 		font-size: 1rem;
@@ -608,28 +553,9 @@ footer {
 		margin-top: 1rem;
 	}
 }
+
 /* HOME PAGE */
 @media screen and (min-width: 740px) and (max-width: 809px) {
-	#main-header {
-		height: 7.4rem;
-		padding-top: 1.3rem;
-	}
-
-#main-header {
-	background-color: #a4c8ff;
-	height: 8rem;
-	width: 100%;
-	padding-top: 2rem;
-	padding-bottom: 3rem;
-	text-align: center;
-}
-
-.logo {
-	height: 5rem;
-	padding-top: 0.5rem;
-	padding-bottom: 1rem;
-}
-
 	nav {
 		padding-top: 1.2rem;
 		font-size: 1rem;
@@ -673,26 +599,6 @@ footer {
 }
 /* HOME PAGE */
 @media screen and (min-width: 809px) and (max-width: 886px) {
-	#main-header {
-		height: 7.4rem;
-		padding-top: 1.3rem;
-	}
-
-#main-header {
-	background-color: #a4c8ff;
-	height: 8rem;
-	width: 100%;
-	padding-top: 2rem;
-	padding-bottom: 3rem;
-	text-align: center;
-}
-
-.logo {
-	height: 5rem;
-	padding-top: 0.5rem;
-	padding-bottom: 1rem;
-}
-
 	nav {
 		padding-top: 1.2rem;
 		font-size: 1rem;
@@ -736,26 +642,6 @@ footer {
 }
 /* HOME PAGE */
 @media screen and (min-width: 886px) and (max-width: 948px) {
-	#main-header {
-		height: 7.4rem;
-		padding-top: 1.3rem;
-	}
-
-#main-header {
-	background-color: #a4c8ff;
-	height: 8rem;
-	width: 100%;
-	padding-top: 2rem;
-	padding-bottom: 3rem;
-	text-align: center;
-}
-
-.logo {
-	height: 5rem;
-	padding-top: 0.5rem;
-	padding-bottom: 1rem;
-}
-
 	nav {
 		padding-top: 1.2rem;
 		font-size: 1rem;
