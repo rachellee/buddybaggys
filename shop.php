@@ -11,9 +11,6 @@ include('inc/header.php'); ?>
 <center>
 	<script type='text/javascript' src='https://www.etsy.com/assets/js/etsy_mini_shop.js'></script>
 	<script type='text/javascript'>new Etsy.Mini(9580575,'gallery',5,5,0,'https://www.etsy.com');</script>	
-
-	<span class="stretch"></span>
-	
 </center>
 
 

@@ -33,13 +33,13 @@
 	<header id="main-header">
 
 		<div id="main-header-text">
-			<img src="images/DooDogLogoGrey.png" class="logo" alt="logo">
+			<img src="images/DooDogLogoGrey.png" class="logo" alt="Doo Dog logo">
 		</div>
 		
 		<div role="navigation" class="nav">
 			<span id="nav-link" class="home"><a href="index.php">Home</a></span>
 			<span id="nav-link" class="shop <?php if ($section == "shop") {echo "on";} ?>"><a href="shop.php">Shop</a></span>
 			<span id="nav-link" class="about <?php if ($section == "about") {echo "on";} ?>"><a href="about.php">About</a></span>
-			<span id="nav-link" class="contact <?php if ($section == "contact") {echo "on";} ?>"><a href="mailto:wesley@byham.com" target="_blank">Contact</a></span>
+			<span id="nav-link" class="contact <?php if ($section == "contact") {echo "on";} ?>"><a href="contact.php">Contact</a></span>
 		</div>
 	</header>
