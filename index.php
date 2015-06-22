@@ -5,7 +5,7 @@ include('inc/header.php'); ?>
 <script src="//use.typekit.net/qdq8opi.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 
-	<div id="teaser-container">
+	<div class="text-container">
 		There are many options for bag dispensers,<BR />but we're better than the others.
 	</div>
 
