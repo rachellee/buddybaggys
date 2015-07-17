@@ -1,6 +1,6 @@
 <?php
-  $pageTitle = "About Doo Dog";
-  $section = "about";
+  $pageTitle = "Contact Wesley";
+  $section = "contact";
 include('inc/header.php'); ?>
 
 <div id="contact-container">
