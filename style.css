@@ -41,7 +41,7 @@
 	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	text-transform: none;
 	font-size: 1.15rem;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 #main-header .nav #nav-link.on a {text-decoration: underline;color: #3c3c3c;}
@@ -335,7 +335,7 @@ body {
    =========================================================================================== */
 
 footer {
-	height: 2rem;
+	height: 5rem;
 	width: 100%;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
