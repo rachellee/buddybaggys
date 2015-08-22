@@ -38,7 +38,7 @@
 
 .nav {
 	width: 100%; 
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	text-transform: none;
 	font-size: 1.15rem;
 	font-weight: 300;
@@ -78,7 +78,7 @@ body {
 	width: 100%;
 	padding-top: 4rem;
 	padding-bottom: 3.5rem;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	font-size: 1.25rem;
 	font-weight: 300;
 	color: #363636;
@@ -105,7 +105,7 @@ body {
 	*display: inline;
 	zoom: 1;
 	padding-bottom: 3rem;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	font-size: 1rem;
 	font-weight: 300;
 	color: #363636;
@@ -130,7 +130,7 @@ body {
 #quiet {
 	width: 100%;
 	padding-bottom: 5rem;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	font-size: 1rem;
 	font-weight: 300;
 	color: #363636;
@@ -140,7 +140,7 @@ body {
 #available-now-text {
 	width: 100%;
 	padding-bottom: 2rem;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	font-size: 3.5rem;
 	font-weight: 500;
 	color: #0dcd43;
@@ -170,7 +170,7 @@ body {
 	zoom:1;
 	font-weight: 300;
 	text-align: center;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	font-size: 1rem;
 }
 
@@ -221,7 +221,7 @@ body {
 	width: 100%;
 	padding-top: 5rem;
 	padding-bottom: 2rem;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	font-size: 1.5rem;
 	font-weight: 300;
 	color: #0dcd43;
@@ -251,7 +251,7 @@ body {
 #wesley-container {
 	width: 36%;
 	float: left;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	color: #363636;
 }
 
@@ -279,14 +279,14 @@ body {
 	padding-top: 9rem;
 	padding-left: 4.5rem;
 	font-size: 75px;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 }
 
 #buddy-container {
 	width: 36%;
 	float: right;
 	margin: 0 auto;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	color: #363636;
 }
 
@@ -314,7 +314,7 @@ body {
 	width: 100%;
 	padding-top: 4rem;
 	padding-bottom: 3.5rem;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	font-size: 1.25rem;
 	font-weight: 300;
 	color: #363636;
@@ -340,7 +340,7 @@ footer {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	background-color: #a4c8ff;
-	font-family: "Raleway", "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Lato", "Open Sans", Verdana, Helvetica, Arial, sans-serif;
 	color: #fff;
 	font-size: 1rem;
 	text-align: center;
