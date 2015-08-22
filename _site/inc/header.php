@@ -39,6 +39,7 @@
 		<div role="navigation" class="nav">
 			<span id="nav-link" class="home"><a href="index.php">Home</a></span>
 			<span id="nav-link" class="shop <?php if ($section == "shop") {echo "on";} ?>"><a href="shop.php">Shop</a></span>
+			<span id="nav-link" class="wholesale <?php if ($section == "wholesale") {echo "on";} ?>"><a href="wholesale.php">Wholesale</a></span>
 			<span id="nav-link" class="about <?php if ($section == "about") {echo "on";} ?>"><a href="about.php">About</a></span>
 			<span id="nav-link" class="contact <?php if ($section == "contact") {echo "on";} ?>"><a href="contact.php">Contact</a></span>
 		</div>

@@ -236,6 +236,14 @@ body {
 	color: #0dcd43;
 }
 
+#wholesale-container {
+	width: 100%;
+	max-width: 700px;
+	margin: 0px auto 80px auto;
+	padding-top: 5rem;
+	color: #3c3c3c;
+}
+
 /* ===========================================================================================
 	About
    =========================================================================================== */
@@ -338,13 +346,26 @@ footer {
 	height: 5rem;
 	width: 100%;
 	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-bottom: 4rem;
 	background-color: #a4c8ff;
 	font-family: Century Gothic, Verdana, Helvetica, Arial, sans-serif;
-	color: #fff;
+	color: #363636;
 	font-size: 1.1 rem;
 	font-weight: 300;
 	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: #3c3c3c;
+}
+
+a:active {
+	color: #3c3c3c;
 }
 
 .pawprint-footer {
