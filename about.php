@@ -15,8 +15,7 @@ include('inc/header.php'); ?>
 			Designer & Seamstress
 		</div>
 		<div class="about-descrip">
-			Full-time marketer.
-			Part-time innovator.<BR /><BR />
+			I've always loved sewing, but I never expected to build a company around one of my inventions.<BR /><BR />
 			Like most inventions, Doo Dog was born out of necessity.
 			Back in 2012, I was on a walk with Buddy one day when I realized we were trailing
 			6 feet of poop bags out of my broken plastic dispenser.
